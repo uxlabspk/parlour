@@ -86,7 +86,7 @@ include __DIR__ . '/includes/header.php';
 
         <!-- Desktop Grid View -->
         <div class="hidden md:grid md:grid-cols-3 gap-6">
-            <a href="http://localhost:8080/collections.php?category=hair" class="group relative aspect-[3/4] rounded-3xl overflow-hidden">
+            <a href="http://localhost:8080/gallery.php?category=hair" class="group relative aspect-[3/4] rounded-3xl overflow-hidden">
                 <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=800&q=80" alt="Hair Services" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" loading="lazy"/>
                 <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
                 <div class="absolute bottom-8 left-8 right-8 text-white">
@@ -95,7 +95,7 @@ include __DIR__ . '/includes/header.php';
                 </div>
             </a>
 
-            <a href="http://localhost:8080/collections.php?category=skin" class="group relative aspect-[3/4] rounded-3xl overflow-hidden">
+            <a href="http://localhost:8080/gallery.php?category=skin" class="group relative aspect-[3/4] rounded-3xl overflow-hidden">
                 <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=800&q=80" alt="Skin Treatments" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" loading="lazy"/>
                 <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
                 <div class="absolute bottom-8 left-8 right-8 text-white">
@@ -104,7 +104,7 @@ include __DIR__ . '/includes/header.php';
                 </div>
             </a>
 
-            <a href="http://localhost:8080/collections.php?category=nails" class="group relative aspect-[3/4] rounded-3xl overflow-hidden">
+            <a href="http://localhost:8080/gallery.php?category=nails" class="group relative aspect-[3/4] rounded-3xl overflow-hidden">
                 <img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?w=800&q=80" alt="Nail Art" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" loading="lazy"/>
                 <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
                 <div class="absolute bottom-8 left-8 right-8 text-white">
@@ -118,7 +118,7 @@ include __DIR__ . '/includes/header.php';
         <div class="md:hidden relative overflow-hidden">
             <div id="collectionSlider" class="flex transition-transform duration-500 ease-out">
                 <div class="min-w-full px-2">
-                    <a href="http://localhost:8080/collections.php?category=hair" class="group relative aspect-[3/4] rounded-3xl overflow-hidden block">
+                    <a href="http://localhost:8080/gallery.php?category=hair" class="group relative aspect-[3/4] rounded-3xl overflow-hidden block">
                         <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=800&q=80" alt="Hair Services" class="w-full h-full object-cover" loading="lazy"/>
                         <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
                         <div class="absolute bottom-8 left-8 right-8 text-white">
@@ -128,7 +128,7 @@ include __DIR__ . '/includes/header.php';
                     </a>
                 </div>
                 <div class="min-w-full px-2">
-                    <a href="http://localhost:8080/collections.php?category=skin" class="group relative aspect-[3/4] rounded-3xl overflow-hidden block">
+                    <a href="http://localhost:8080/gallery.php?category=skin" class="group relative aspect-[3/4] rounded-3xl overflow-hidden block">
                         <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=800&q=80" alt="Skin Treatments" class="w-full h-full object-cover" loading="lazy"/>
                         <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
                         <div class="absolute bottom-8 left-8 right-8 text-white">
@@ -138,7 +138,7 @@ include __DIR__ . '/includes/header.php';
                     </a>
                 </div>
                 <div class="min-w-full px-2">
-                    <a href="http://localhost:8080/collections.php?category=nails" class="group relative aspect-[3/4] rounded-3xl overflow-hidden block">
+                    <a href="http://localhost:8080/gallery.php?category=nails" class="group relative aspect-[3/4] rounded-3xl overflow-hidden block">
                         <img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?w=800&q=80" alt="Nail Art" class="w-full h-full object-cover" loading="lazy"/>
                         <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
                         <div class="absolute bottom-8 left-8 right-8 text-white">

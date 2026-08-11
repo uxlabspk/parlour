@@ -44,7 +44,7 @@
                     <ul class="space-y-4">
                         <li><a href="http://localhost:8080/about.php" class="text-sm text-gray-400 hover:text-white transition-colors duration-200">About Us</a></li>
                         <li><a href="http://localhost:8080/contact.php" class="text-sm text-gray-400 hover:text-white transition-colors duration-200">Contact</a></li>
-                        <li><a href="http://localhost:8080/collections.php" class="text-sm text-gray-400 hover:text-white transition-colors duration-200">Collections</a></li>
+                        <li><a href="http://localhost:8080/gallery.php" class="text-sm text-gray-400 hover:text-white transition-colors duration-200">Gallery</a></li>
                         <li><a href="#" class="text-sm text-gray-400 hover:text-white transition-colors duration-200">Best Products</a></li>
                     </ul>
                 </div>

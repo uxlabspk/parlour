@@ -233,7 +233,7 @@ $slider_products = $stmtSlider->fetchAll();
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
                             </svg>
                         </a>
-                        <a href="#collections-section" class="group inline-flex items-center justify-center gap-3 px-8 py-4 rounded-full font-semibold text-white border border-white/30 hover:bg-white/10 hover:border-white/50 transition-all duration-300">
+                        <a href="#gallery-section" class="group inline-flex items-center justify-center gap-3 px-8 py-4 rounded-full font-semibold text-white border border-white/30 hover:bg-white/10 hover:border-white/50 transition-all duration-300">
                             View Services
                         </a>
                     </div>
@@ -444,7 +444,7 @@ $slider_products = $stmtSlider->fetchAll();
 
 
     <!-- Services Section - Bento Grid Style -->
-    <section id="collections-section" class="relative bg-gray-50 py-24 lg:py-32 px-6 lg:px-8">
+    <section id="gallery-section" class="relative bg-gray-50 py-24 lg:py-32 px-6 lg:px-8">
         <div class="max-w-7xl mx-auto">
             <!-- Section Header -->
             <div class="text-center mb-16 lg:mb-20">
@@ -460,7 +460,7 @@ $slider_products = $stmtSlider->fetchAll();
             <!-- Bento Grid Layout -->
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 lg:gap-8">
                 <!-- Large Card - Hair Services -->
-                <a href="http://localhost:8080/collections.php?category=hair" class="group relative lg:col-span-2 lg:row-span-2 h-[500px] lg:h-auto rounded-[2rem] overflow-hidden hover-lift block">
+                <a href="http://localhost:8080/gallery.php?category=hair" class="group relative lg:col-span-2 lg:row-span-2 h-[500px] lg:h-auto rounded-[2rem] overflow-hidden hover-lift block">
                     <img 
                         src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=1200&q=85" 
                         alt="Hair Services Collection" 
@@ -486,7 +486,7 @@ $slider_products = $stmtSlider->fetchAll();
                 </a>
 
                 <!-- Skin Treatments Card -->
-                <a href="http://localhost:8080/collections.php?category=skin" class="group relative h-[350px] lg:h-auto rounded-[2rem] overflow-hidden hover-lift block">
+                <a href="http://localhost:8080/gallery.php?category=skin" class="group relative h-[350px] lg:h-auto rounded-[2rem] overflow-hidden hover-lift block">
                     <img 
                         src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=800&q=85" 
                         alt="Skin Treatments Collection" 
@@ -508,7 +508,7 @@ $slider_products = $stmtSlider->fetchAll();
                 </a>
 
                 <!-- Nail Art Card -->
-                <a href="http://localhost:8080/collections.php?category=nails" class="group relative h-[350px] lg:h-auto rounded-[2rem] overflow-hidden hover-lift block">
+                <a href="http://localhost:8080/gallery.php?category=nails" class="group relative h-[350px] lg:h-auto rounded-[2rem] overflow-hidden hover-lift block">
                     <img 
                         src="https://images.unsplash.com/photo-1604654894610-df63bc536371?w=800&q=85" 
                         alt="Nail Art Collection" 
@@ -532,7 +532,7 @@ $slider_products = $stmtSlider->fetchAll();
 
             <!-- View All Services -->
             <div class="text-center mt-12 lg:mt-16">
-                <a href="http://localhost:8080/collections.php" class="inline-flex items-center gap-3 px-8 py-4 bg-gray-900 text-white rounded-full font-semibold hover:bg-gray-800 transition-all duration-300 group">
+                <a href="http://localhost:8080/gallery.php" class="inline-flex items-center gap-3 px-8 py-4 bg-gray-900 text-white rounded-full font-semibold hover:bg-gray-800 transition-all duration-300 group">
                     View All Services
                     <svg class="w-5 h-5 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>

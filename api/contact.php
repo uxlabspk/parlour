@@ -157,7 +157,7 @@ function sendConfirmationEmail($to, $name) {
                     <p>Hello " . htmlspecialchars($name) . ",</p>
                     <p>We've received your message and appreciate you taking the time to contact us.</p>
                     <p>Our customer support team will review your inquiry and get back to you within 24-48 hours.</p>
-                    <p>In the meantime, feel free to explore our latest collections:</p>
+                    <p>In the meantime, feel free to explore our latest work:</p>
                     <a href='http://" . $_SERVER['HTTP_HOST'] . "/shop.php' class='button'>Browse Shop</a>
                     <p style='margin-top: 30px;'>Best regards,<br><strong>MA Essentials Team</strong></p>
                     <div style='margin-top: 30px; padding-top: 20px; border-top: 1px solid #d1d5db; color: #6b7280; font-size: 12px;'>

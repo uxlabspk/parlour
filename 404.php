@@ -42,7 +42,7 @@
         <div class="mt-14 md:mt-16 pt-8 border-t border-gray-100">
             <p class="text-sm text-gray-400 mb-4">You might find these helpful:</p>
             <div class="flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-sm">
-                <a href="http://localhost:8080/collections.php" class="text-gray-600 hover:text-gray-900 transition-colors">Collections</a>
+                <a href="http://localhost:8080/gallery.php" class="text-gray-600 hover:text-gray-900 transition-colors">Gallery</a>
                 <span class="text-gray-200 hidden sm:inline">•</span>
                 <a href="http://localhost:8080/about.php" class="text-gray-600 hover:text-gray-900 transition-colors">About Us</a>
                 <span class="text-gray-200 hidden sm:inline">•</span>
