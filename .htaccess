@@ -1,0 +1,137 @@
+# Enable Rewrite Engine
+RewriteEngine On
+
+# Set the base directory (adjust if your site is in a subdirectory)
+RewriteBase /
+
+####################
+# Security & Performance
+####################
+
+# Prevent directory browsing
+Options -Indexes
+
+# Protect sensitive files
+<FilesMatch "^\.">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+# Protect includes directory
+RewriteRule ^includes/ - [F,L]
+
+# Protect scripts directory (if it contains sensitive CLI scripts)
+RewriteRule ^scripts/ - [F,L]
+
+####################
+# Force HTTPS (optional - uncomment if you have SSL)
+####################
+# RewriteCond %{HTTPS} off
+# RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+####################
+# Remove .php extension
+####################
+
+# Remove trailing slashes (optional, for consistency)
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} (.+)/$
+RewriteRule ^ %1 [R=301,L]
+
+# Redirect .php files to extensionless URLs
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s([^.]+)\.php [NC]
+RewriteRule ^ %1 [R=301,L]
+
+####################
+# Route Handling
+####################
+
+# Handle root index
+RewriteRule ^$ index.php [L]
+
+# Handle 404 page specifically
+RewriteRule ^404$ 404.php [L]
+
+# Handle auth routes
+RewriteRule ^auth/login$ auth/login.php [L]
+RewriteRule ^auth/logout$ auth/logout.php [L]
+RewriteRule ^auth/signup$ auth/signup.php [L]
+RewriteRule ^auth/forgot-password$ auth/forgot-password.php [L]
+RewriteRule ^auth/reset-password$ auth/reset-password.php [L]
+
+# Handle admin routes
+RewriteRule ^admin/?$ admin/index.php [L]
+RewriteRule ^admin/orders$ admin/orders.php [L]
+RewriteRule ^admin/products$ admin/products.php [L]
+RewriteRule ^admin/reviews$ admin/reviews.php [L]
+RewriteRule ^admin/users$ admin/users.php [L]
+
+# Handle API routes
+RewriteRule ^api/cart$ api/cart.php [L]
+RewriteRule ^api/place_order$ api/place_order.php [L]
+RewriteRule ^api/manage_address$ api/manage_address.php [L]
+RewriteRule ^api/hbl_payment$ api/hbl_payment.php [L]
+RewriteRule ^api/forgot_password$ api/forgot_password.php [L]
+RewriteRule ^api/reset_password$ api/reset_password.php [L]
+RewriteRule ^api/update_password$ api/update_password.php [L]
+RewriteRule ^api/update_profile$ api/update_profile.php [L]
+RewriteRule ^api/submit_review$ api/submit_review.php [L]
+RewriteRule ^api/contact$ api/contact.php [L]
+RewriteRule ^api/delete_account$ api/delete_account.php [L]
+RewriteRule ^api/cancel_order$ api/cancel_order.php [L]
+
+# Handle root-level public pages
+RewriteRule ^about$ about.php [L]
+RewriteRule ^collections$ collections.php [L]
+RewriteRule ^contact$ contact.php [L]
+RewriteRule ^cart$ cart.php [L]
+RewriteRule ^checkout$ checkout.php [L]
+RewriteRule ^shop$ shop.php [L]
+RewriteRule ^product$ product.php [L,QSA]
+RewriteRule ^profile$ profile.php [L]
+RewriteRule ^receipt$ receipt.php [L,QSA]
+RewriteRule ^returns$ returns.php [L]
+RewriteRule ^shipping$ shipping.php [L]
+RewriteRule ^privacy$ privacy.php [L]
+RewriteRule ^terms$ terms.php [L]
+
+####################
+# Generic .php handler (fallback)
+####################
+
+# If a .php file exists, serve it without the extension
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.+)$ $1.php [L,QSA]
+
+####################
+# Custom Error Pages
+####################
+
+ErrorDocument 404 /404.php
+ErrorDocument 403 /404.php
+ErrorDocument 500 /404.php
+
+####################
+# Additional Settings
+####################
+
+# Enable compression (optional)
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript application/json
+</IfModule>
+
+# Browser caching (optional)
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType image/jpg "access plus 1 year"
+    ExpiresByType image/jpeg "access plus 1 year"
+    ExpiresByType image/gif "access plus 1 year"
+    ExpiresByType image/png "access plus 1 year"
+    ExpiresByType image/webp "access plus 1 year"
+    ExpiresByType text/css "access plus 1 month"
+    ExpiresByType application/javascript "access plus 1 month"
+    ExpiresByType image/x-icon "access plus 1 year"
+</IfModule> 
+
