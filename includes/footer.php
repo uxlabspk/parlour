@@ -11,8 +11,8 @@
                     <a href="https://parlour.com/" class="inline-block text-2xl font-light tracking-tight mb-6">
                         <img 
                     src="https://parlour.com/assets/images/dark-logo.png" 
-                    alt="Parlour Logo - Premium Fashion & Timeless Clothing Brand" 
-                    title="Parlour - Your Destination for Elegant Fashion"
+                    alt="Parlour Logo - Premium Beauty & Hair Salon" 
+                    title="Parlour - Your Destination for Premium Beauty Services"
                     width="60" 
                     height="60"
                     class="transition-transform duration-300 group-hover:scale-105"
@@ -21,20 +21,20 @@
                     <span class="font-semibold">Essentials</span>
                     </a>
                     <p class="text-gray-400 text-sm leading-relaxed mb-8 max-w-sm">
-                        Elevate your wardrobe with timeless pieces crafted for the modern individual. Fashion that speaks for itself.
+                        Elevate your beauty with premium services crafted for the modern individual. Beauty that speaks for itself.
                     </p>
                     
                 </div>
 
-                <!-- Shop Links -->
+                <!-- Services Links -->
                 <div class="lg:col-span-2">
-                    <h4 class="text-xs font-semibold text-gray-400 uppercase tracking-[0.2em] mb-6">Shop</h4>
+                    <h4 class="text-xs font-semibold text-gray-400 uppercase tracking-[0.2em] mb-6">Services</h4>
                     <ul class="space-y-4">
-                        <li><a href="https://parlour.com/shop" class="text-sm text-gray-400 hover:text-white transition-colors duration-200">New Arrivals</a></li>
-                        <li><a href="https://parlour.com/shop?category=Men" class="text-sm text-gray-400 hover:text-white transition-colors duration-200">Men</a></li>
-                        <li><a href="https://parlour.com/shop?category=Women" class="text-sm text-gray-400 hover:text-white transition-colors duration-200">Women</a></li>
-                        <li><a href="https://parlour.com/shop?category=Accessories" class="text-sm text-gray-400 hover:text-white transition-colors duration-200">Accessories</a></li>
-                        <li><a href="https://parlour.com/shop?sale=1" class="text-sm text-gray-400 hover:text-white transition-colors duration-200">Sale</a></li>
+                        <li><a href="https://parlour.com/shop" class="text-sm text-gray-400 hover:text-white transition-colors duration-200">Hair Services</a></li>
+                        <li><a href="https://parlour.com/shop?category=Skin" class="text-sm text-gray-400 hover:text-white transition-colors duration-200">Skin Care</a></li>
+                        <li><a href="https://parlour.com/shop?category=Nails" class="text-sm text-gray-400 hover:text-white transition-colors duration-200">Nail Art</a></li>
+                        <li><a href="https://parlour.com/shop?category=Bridal" class="text-sm text-gray-400 hover:text-white transition-colors duration-200">Bridal</a></li>
+                        <li><a href="https://parlour.com/shop?category=Products" class="text-sm text-gray-400 hover:text-white transition-colors duration-200">Products</a></li>
                     </ul>
                 </div>
 
@@ -52,7 +52,7 @@
                 <!-- Newsletter -->
                 <div class="lg:col-span-4">
                     <h4 class="text-xs font-semibold text-gray-400 uppercase tracking-[0.2em] mb-6">Stay Inspired</h4>
-                    <p class="text-sm text-gray-400 mb-6">Follow our latest drops, styling tips, and behind-the-scenes content—join the Parlour community.</p>
+                    <p class="text-sm text-gray-400 mb-6">Follow our latest beauty trends, styling tips, and behind-the-scenes content—join the Parlour community.</p>
                     <div class="flex gap-3">
                         <a href="#" class="w-10 h-10 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center hover:bg-white/10 hover:border-white/20 transition-all duration-300 group">
                             <svg class="w-4 h-4 text-gray-400 group-hover:text-white transition-colors" fill="currentColor" viewBox="0 0 24 24">
@@ -102,7 +102,7 @@
 </style>
 
 <!-- Replace the phone number and the prefilled message as needed -->
-<a href="https://wa.me/+923145394040?text=Hello%20Parlour%20I%20need%20help%20with%20an%20order" target="_blank" rel="noopener noreferrer" class="whatsapp-float" aria-label="Chat on WhatsApp">
+<a href="https://wa.me/+923145394040?text=Hello%20Parlour%20I%20need%20help%20with%20a%20booking" target="_blank" rel="noopener noreferrer" class="whatsapp-float" aria-label="Chat on WhatsApp">
     <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
         <path d="M20.52 3.48A11.94 11.94 0 0012 .5 11.96 11.96 0 003.48 3.48 11.92 11.92 0 00.5 12c0 2.09.55 4.13 1.6 5.92L0 24l6.3-1.64A11.92 11.92 0 0012 24c2.09 0 4.13-.55 5.92-1.6A11.92 11.92 0 0023.5 12c0-3.2-1.25-6.2-3.0-8.52zM12 21.5c-1.64 0-3.25-.43-4.64-1.25l-.33-.19-3.74.97.99-3.62-.21-.36A9.47 9.47 0 012.5 12c0-5.25 4.25-9.5 9.5-9.5s9.5 4.25 9.5 9.5S17.25 21.5 12 21.5z"/>
         <path d="M17.58 14.06c-.3-.15-1.78-.88-2.05-.98-.27-.1-.47-.15-.67.15s-.77.98-.95 1.18c-.18.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.76-1.66-2.06-.17-.3-.02-.46.13-.6.13-.12.3-.33.45-.5.15-.17.2-.3.3-.5.1-.2.05-.38-.02-.53-.07-.15-.67-1.6-.92-2.2-.24-.57-.48-.5-.67-.51l-.57-.01c-.2 0-.52.07-.8.37s-1.05 1.03-1.05 2.5 1.08 2.9 1.23 3.1c.15.2 2.12 3.33 5.14 4.67 2.02.9 2.78.99 3.78.83.6-.11 1.78-.72 2.03-1.42.25-.7.25-1.3.18-1.42-.07-.12-.26-.2-.56-.35z" fill="#fff"/>

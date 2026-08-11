@@ -6,35 +6,33 @@ include __DIR__ . '/includes/header.php';
 <section class="py-24 lg:py-32">
     <div class="max-w-5xl mx-auto px-6 lg:px-8">
         <div class="text-center mb-12">
-            <h1 class="text-4xl lg:text-5xl font-light text-gray-900 tracking-tight">Shipping <span class="font-semibold">Policy</span></h1>
-            <p class="mt-4 text-gray-600">We ship worldwide. This page explains shipping methods, costs, and delivery times.</p>
+            <h1 class="text-4xl lg:text-5xl font-light text-gray-900 tracking-tight">Service <span class="font-semibold">Policy</span></h1>
+            <p class="mt-4 text-gray-600">We provide premium beauty services. This page explains our booking, service, and product policies.</p>
         </div>
 
         <div class="prose prose-lg max-w-none text-gray-700">
-            <h2>Processing Time</h2>
-            <p>Orders are typically processed within 1–2 business days. Processing may be longer during sale periods or public holidays.</p>
+            <h2>Appointment Booking</h2>
+            <p>Appointments can be booked through our website, by calling us, or by visiting our salon. We recommend booking in advance to secure your preferred time slot.</p>
 
-            <h2>Shipping Methods & Delivery Times</h2>
+            <h2>Service Availability</h2>
             <ul>
-                <li><strong>Standard Shipping:</strong> 3–7 business days (domestic).</li>
-                <li><strong>Express Shipping:</strong> 1–3 business days (domestic).</li>
-                <li><strong>International Shipping:</strong> 7–21 business days depending on destination and customs processing.</li>
+                <li><strong>Hair Services:</strong> Available throughout the week.</li>
+                <li><strong>Skin Treatments:</strong> Available by appointment.</li>
+                <li><strong>Nail Art:</strong> Walk-ins and appointments welcome.</li>
+                <li><strong>Bridal Packages:</strong> Advance booking required (2-4 weeks).</li>
             </ul>
 
-            <h2>Shipping Costs</h2>
-            <p>Shipping costs are calculated at checkout based on weight, destination, and chosen shipping method. Free shipping promotions may apply for qualifying orders.</p>
+            <h2>Product Orders</h2>
+            <p>Beauty products can be purchased in-salon or through our online store. Orders are typically processed within 1-2 business days.</p>
 
-            <h2>Customs, Duties & Taxes</h2>
-            <p>International orders may be subject to import duties and taxes. These are the responsibility of the recipient and are not included in the item price or shipping cost.</p>
+            <h2>Delivery</h2>
+            <p>Product deliveries are handled by our trusted delivery partners. Delivery times may vary based on your location and product availability.</p>
 
-            <h2>Tracking</h2>
-            <p>Once your order ships, you will receive a tracking number via email. Use the provided tracking link to follow your shipment.</p>
-
-            <h2>Lost or Delayed Shipments</h2>
-            <p>If your order appears lost or delayed, contact us at <a href="https://parlour.com/contact" class="text-gray-900 underline">Contact</a> or support@parlour.com and include your order number and tracking details.</p>
+            <h2>Cancellation Policy</h2>
+            <p>We offer free cancellation up to 24 hours before your appointment. Late cancellations may incur a fee.</p>
 
             <h2>Contact</h2>
-            <p>For shipping questions, please reach out via our <a href="https://parlour.com/contact" class="text-gray-900 underline">Contact</a> page.</p>
+            <p>For any service-related questions, please reach out via our <a href="https://parlour.com/contact" class="text-gray-900 underline">Contact</a> page.</p>
         </div>
     </div>
 </section>

@@ -12,7 +12,7 @@ include __DIR__ . '/includes/header.php';
 
         <div class="prose prose-lg max-w-none text-gray-700">
             <h2>Return Eligibility</h2>
-            <p>Returns are accepted within 30 days of delivery for unworn, unused items in their original condition and packaging. Items marked as final sale are not eligible for return.</p>
+            <p>Returns are accepted within 30 days of delivery for unused products in their original condition and packaging. Items marked as final sale are not eligible for return.</p>
 
             <h2>How to Start a Return</h2>
             <ol>
@@ -31,7 +31,7 @@ include __DIR__ . '/includes/header.php';
             <p>If an item arrives damaged or defective, please contact us within 7 days with photos of the item and packaging. We will arrange a replacement or full refund.</p>
 
             <h2>Non-Returnable Items</h2>
-            <p>Certain items such as gift cards, final-sale products, and items showing signs of wear are not returnable.</p>
+            <p>Certain items such as gift cards, final-sale products, and items showing opened beauty products are not returnable.</p>
 
             <h2>Contact</h2>
             <p>For all return inquiries, use our <a href="https://parlour.com/contact" class="text-gray-900 underline">Contact</a> page or email support@parlour.com.</p>

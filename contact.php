@@ -7,8 +7,8 @@ include __DIR__ . '/includes/header.php';
  <div class="relative h-[60vh] min-h-[500px] flex items-center justify-center overflow-hidden">
     <div class="absolute inset-0 -z-10">
         <img 
-            src="https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?w=1920&q=85" 
-            alt="Shop Collection" 
+            src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=1920&q=85" 
+            alt="Contact Parlour Salon" 
             class="w-full h-full object-cover"
         />
         <div class="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-transparent"></div>
@@ -134,8 +134,9 @@ include __DIR__ . '/includes/header.php';
                             <label class="block text-sm font-medium text-gray-700 mb-2">Subject</label>
                             <select name="subject" class="w-full px-5 py-4 rounded-xl border border-gray-200 outline-none focus:border-gray-400 focus:ring-2 focus:ring-gray-100 transition-all duration-200 text-gray-900 bg-white">
                                 <option value="general">General Inquiry</option>
-                                <option value="order">Order Support</option>
-                                <option value="returns">Returns & Exchanges</option>
+                                <option value="booking">Appointment Booking</option>
+                                <option value="services">Service Inquiry</option>
+                                <option value="cancellation">Cancellation</option>
                                 <option value="feedback">Feedback</option>
                             </select>
                         </div>

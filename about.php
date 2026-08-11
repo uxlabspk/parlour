@@ -7,8 +7,8 @@ include __DIR__ . '/includes/header.php';
 <div class="relative h-[60vh] min-h-[500px] flex items-center justify-center overflow-hidden">
     <div class="absolute inset-0 -z-10">
         <img 
-            src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=1920&q=85" 
-            alt="Parlour Watch Store" 
+            src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=1920&q=85" 
+            alt="Parlour Beauty Salon" 
             class="w-full h-full object-cover"
         />
         <div class="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-transparent"></div>
@@ -20,7 +20,7 @@ include __DIR__ . '/includes/header.php';
             Our <span class="font-semibold">Story</span>
         </h1>
         <p class="text-xl text-white/80 max-w-2xl mx-auto leading-relaxed">
-            Crafting timeless timepieces that transcend generations
+            Crafting beauty experiences that transcend generations
         </p>
     </div>
 </div>
@@ -35,24 +35,24 @@ include __DIR__ . '/includes/header.php';
                     Timeless <span class="font-semibold">Precision</span>
                 </h2>
                 <div class="space-y-6 text-gray-600 leading-relaxed">
-                    <p>Founded in 2025, Parlour was born from a simple vision: to offer exceptional timepieces that transcend generations. We believe that a great watch isn't just about telling time—it's about making a statement and appreciating fine craftsmanship.</p>
-                    <p>We believe that watches are more than just accessories; they're expressions of personality and achievement. Our mission is to provide high-quality, precision timepieces that empower individuals to mark life's important moments.</p>
-                    <p>Every watch in our collection is carefully selected and crafted with excellence, ensuring that you receive only the finest horology. From movement selection to final inspection, we maintain the highest standards.</p>
+                    <p>Founded in 2025, Parlour was born from a simple vision: to offer exceptional beauty services that transcend generations. We believe that great beauty care isn't just about looking good—it's about making a statement and appreciating fine artistry.</p>
+                    <p>We believe that beauty services are more than just treatments; they're expressions of personality and confidence. Our mission is to provide high-quality, precision beauty services that empower individuals to feel their best every day.</p>
+                    <p>Every service in our collection is carefully curated and delivered with excellence, ensuring that you receive only the finest beauty experience. From stylist selection to final touches, we maintain the highest standards.</p>
                 </div>
                 
                 <!-- Stats -->
                 <div class="grid grid-cols-3 gap-8 mt-12 pt-12 border-t border-gray-100">
                     <div>
                         <span class="block text-4xl font-semibold text-gray-900 mb-1">10K+</span>
-                        <span class="text-sm text-gray-500">Happy Collectors</span>
+                        <span class="text-sm text-gray-500">Happy Clients</span>
                     </div>
                     <div>
                         <span class="block text-4xl font-semibold text-gray-900 mb-1">200+</span>
-                        <span class="text-sm text-gray-500">Timepieces</span>
+                        <span class="text-sm text-gray-500">Services</span>
                     </div>
                     <div>
                         <span class="block text-4xl font-semibold text-gray-900 mb-1">15+</span>
-                        <span class="text-sm text-gray-500">Countries</span>
+                        <span class="text-sm text-gray-500">Expert Stylists</span>
                     </div>
                 </div>
             </div>
@@ -71,7 +71,7 @@ include __DIR__ . '/includes/header.php';
     </div>
 </section>
 
-<!-- Collections Section -->
+<!-- Services Section -->
 <section class="py-24 lg:py-32 bg-gray-50/50">
     <div class="max-w-7xl mx-auto px-6 lg:px-8">
         <div class="text-center mb-16">
@@ -80,36 +80,36 @@ include __DIR__ . '/includes/header.php';
                 What We <span class="font-semibold">Offer</span>
             </h2>
             <p class="text-gray-600 max-w-2xl mx-auto">
-                Discover our curated selection of timepieces designed for every lifestyle.
+                Discover our curated selection of beauty services designed for every lifestyle.
             </p>
         </div>
 
         <!-- Desktop Grid View -->
         <div class="hidden md:grid md:grid-cols-3 gap-6">
-            <a href="https://parlour.com/collections?category=luxury" class="group relative aspect-[3/4] rounded-3xl overflow-hidden">
-                <img src="https://images.unsplash.com/photo-1547996160-81dfa63595aa?w=800&q=80" alt="Luxury Watches" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" loading="lazy"/>
+            <a href="https://parlour.com/collections?category=hair" class="group relative aspect-[3/4] rounded-3xl overflow-hidden">
+                <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=800&q=80" alt="Hair Services" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" loading="lazy"/>
                 <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
                 <div class="absolute bottom-8 left-8 right-8 text-white">
-                    <h3 class="text-2xl font-semibold mb-2">Luxury Watches</h3>
-                    <p class="text-white/70 text-sm">Premium Swiss timepieces with exquisite craftsmanship.</p>
+                    <h3 class="text-2xl font-semibold mb-2">Hair Services</h3>
+                    <p class="text-white/70 text-sm">Premium hair styling with exquisite craftsmanship.</p>
                 </div>
             </a>
 
-            <a href="https://parlour.com/collections?category=sport" class="group relative aspect-[3/4] rounded-3xl overflow-hidden">
-                <img src="https://images.unsplash.com/photo-1600721391776-b5cd0e0048a9?w=800&q=80" alt="Sport Watches" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" loading="lazy"/>
+            <a href="https://parlour.com/collections?category=skin" class="group relative aspect-[3/4] rounded-3xl overflow-hidden">
+                <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=800&q=80" alt="Skin Treatments" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" loading="lazy"/>
                 <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
                 <div class="absolute bottom-8 left-8 right-8 text-white">
-                    <h3 class="text-2xl font-semibold mb-2">Sport Watches</h3>
-                    <p class="text-white/70 text-sm">Rugged and reliable watches for active lifestyles.</p>
+                    <h3 class="text-2xl font-semibold mb-2">Skin Treatments</h3>
+                    <p class="text-white/70 text-sm">Refreshing treatments for active lifestyles.</p>
                 </div>
             </a>
 
-            <a href="https://parlour.com/collections?category=smart" class="group relative aspect-[3/4] rounded-3xl overflow-hidden">
-                <img src="https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=800&q=80" alt="Smart Watches" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" loading="lazy"/>
+            <a href="https://parlour.com/collections?category=nails" class="group relative aspect-[3/4] rounded-3xl overflow-hidden">
+                <img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?w=800&q=80" alt="Nail Art" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" loading="lazy"/>
                 <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
                 <div class="absolute bottom-8 left-8 right-8 text-white">
-                    <h3 class="text-2xl font-semibold mb-2">Smart Watches</h3>
-                    <p class="text-white/70 text-sm">Advanced technology meets elegant design.</p>
+                    <h3 class="text-2xl font-semibold mb-2">Nail Art</h3>
+                    <p class="text-white/70 text-sm">Creative artistry meets elegant design.</p>
                 </div>
             </a>
         </div>
@@ -118,32 +118,32 @@ include __DIR__ . '/includes/header.php';
         <div class="md:hidden relative overflow-hidden">
             <div id="collectionSlider" class="flex transition-transform duration-500 ease-out">
                 <div class="min-w-full px-2">
-                    <a href="https://parlour.com/collections?category=luxury" class="group relative aspect-[3/4] rounded-3xl overflow-hidden block">
-                        <img src="https://images.unsplash.com/photo-1547996160-81dfa63595aa?w=800&q=80" alt="Luxury Watches" class="w-full h-full object-cover" loading="lazy"/>
+                    <a href="https://parlour.com/collections?category=hair" class="group relative aspect-[3/4] rounded-3xl overflow-hidden block">
+                        <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=800&q=80" alt="Hair Services" class="w-full h-full object-cover" loading="lazy"/>
                         <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
                         <div class="absolute bottom-8 left-8 right-8 text-white">
-                            <h3 class="text-2xl font-semibold mb-2">Luxury Watches</h3>
-                            <p class="text-white/70 text-sm">Premium Swiss timepieces with exquisite craftsmanship.</p>
+                            <h3 class="text-2xl font-semibold mb-2">Hair Services</h3>
+                            <p class="text-white/70 text-sm">Premium hair styling with exquisite craftsmanship.</p>
                         </div>
                     </a>
                 </div>
                 <div class="min-w-full px-2">
-                    <a href="https://parlour.com/collections?category=sport" class="group relative aspect-[3/4] rounded-3xl overflow-hidden block">
-                        <img src="https://images.unsplash.com/photo-1600721391776-b5cd0e0048a9?w=800&q=80" alt="Sport Watches" class="w-full h-full object-cover" loading="lazy"/>
+                    <a href="https://parlour.com/collections?category=skin" class="group relative aspect-[3/4] rounded-3xl overflow-hidden block">
+                        <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=800&q=80" alt="Skin Treatments" class="w-full h-full object-cover" loading="lazy"/>
                         <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
                         <div class="absolute bottom-8 left-8 right-8 text-white">
-                            <h3 class="text-2xl font-semibold mb-2">Sport Watches</h3>
-                            <p class="text-white/70 text-sm">Rugged and reliable watches for active lifestyles.</p>
+                            <h3 class="text-2xl font-semibold mb-2">Skin Treatments</h3>
+                            <p class="text-white/70 text-sm">Refreshing treatments for active lifestyles.</p>
                         </div>
                     </a>
                 </div>
                 <div class="min-w-full px-2">
-                    <a href="https://parlour.com/collections?category=smart" class="group relative aspect-[3/4] rounded-3xl overflow-hidden block">
-                        <img src="https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=800&q=80" alt="Smart Watches" class="w-full h-full object-cover" loading="lazy"/>
+                    <a href="https://parlour.com/collections?category=nails" class="group relative aspect-[3/4] rounded-3xl overflow-hidden block">
+                        <img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?w=800&q=80" alt="Nail Art" class="w-full h-full object-cover" loading="lazy"/>
                         <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
                         <div class="absolute bottom-8 left-8 right-8 text-white">
-                            <h3 class="text-2xl font-semibold mb-2">Smart Watches</h3>
-                            <p class="text-white/70 text-sm">Advanced technology meets elegant design.</p>
+                            <h3 class="text-2xl font-semibold mb-2">Nail Art</h3>
+                            <p class="text-white/70 text-sm">Creative artistry meets elegant design.</p>
                         </div>
                     </a>
                 </div>
@@ -257,49 +257,49 @@ document.addEventListener('DOMContentLoaded', function() {
         <div class="space-y-4">
             <div class="bg-white rounded-2xl overflow-hidden border border-gray-100">
                 <button class="faq-btn w-full px-6 py-5 text-left flex justify-between items-center group">
-                    <span class="font-semibold text-gray-900">How long does shipping take?</span>
+                    <span class="font-semibold text-gray-900">How do I book an appointment?</span>
                     <span class="faq-icon transform transition-transform duration-300">
                         <svg class="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
                     </span>
                 </button>
                 <div class="faq-content hidden px-6 pb-5 text-gray-600 text-sm leading-relaxed">
-                    Standard shipping usually takes 3-5 business days. International orders may take 7-14 business days depending on the destination and local customs processing.
+                    You can book an appointment through our website, by calling us, or by visiting our salon. We recommend booking in advance to secure your preferred time slot.
                 </div>
             </div>
 
             <div class="bg-white rounded-2xl overflow-hidden border border-gray-100">
                 <button class="faq-btn w-full px-6 py-5 text-left flex justify-between items-center group">
-                    <span class="font-semibold text-gray-900">What is your return policy?</span>
+                    <span class="font-semibold text-gray-900">What is your cancellation policy?</span>
                     <span class="faq-icon transform transition-transform duration-300">
                         <svg class="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
                     </span>
                 </button>
                 <div class="faq-content hidden px-6 pb-5 text-gray-600 text-sm leading-relaxed">
-                    We offer a 30-day return policy for all unworn items in their original packaging. Simply contact our support team to initiate a return or exchange.
+                    We offer free cancellation up to 24 hours before your appointment. Late cancellations may incur a fee.
                 </div>
             </div>
 
             <div class="bg-white rounded-2xl overflow-hidden border border-gray-100">
                 <button class="faq-btn w-full px-6 py-5 text-left flex justify-between items-center group">
-                    <span class="font-semibold text-gray-900">Do you offer gift cards?</span>
+                    <span class="font-semibold text-gray-900">Do you sell beauty products?</span>
                     <span class="faq-icon transform transition-transform duration-300">
                         <svg class="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
                     </span>
                 </button>
                 <div class="faq-content hidden px-6 pb-5 text-gray-600 text-sm leading-relaxed">
-                    Yes! We offer digital gift cards that can be sent directly to your recipient. They are available in various denominations and never expire.
+                    Yes! We offer a curated selection of premium beauty products that you can purchase in-salon or through our online store.
                 </div>
             </div>
 
             <div class="bg-white rounded-2xl overflow-hidden border border-gray-100">
                 <button class="faq-btn w-full px-6 py-5 text-left flex justify-between items-center group">
-                    <span class="font-semibold text-gray-900">How can I track my order?</span>
+                    <span class="font-semibold text-gray-900">Is parking available?</span>
                     <span class="faq-icon transform transition-transform duration-300">
                         <svg class="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
                     </span>
                 </button>
                 <div class="faq-content hidden px-6 pb-5 text-gray-600 text-sm leading-relaxed">
-                    Once your order ships, you will receive an email with a tracking number and a link to follow your package's journey to your doorstep.
+                    Yes, we have parking available for our clients. There is also street parking nearby.
                 </div>
             </div>
         </div>
@@ -345,12 +345,12 @@ document.addEventListener('DOMContentLoaded', function() {
             <div id="reviewSlider" class="flex transition-transform duration-500 ease-out gap-6">
                 <?php 
                 $reviews = [
-                    ['name' => 'Sarah Johnson', 'role' => 'Fashion Stylist', 'text' => 'The quality of the wool overcoat is exceptional. It has become a staple in my winter wardrobe.'],
-                    ['name' => 'Michael Chen', 'role' => 'Creative Director', 'text' => 'Modern designs with a timeless feel. Parlour truly understands sophisticated fashion.'],
-                    ['name' => 'Emma Williams', 'role' => 'Store Manager', 'text' => 'Customer service was incredibly helpful with sizing. The silk gown fits like a dream!'],
-                    ['name' => 'James Wilson', 'role' => 'Business Analyst', 'text' => 'Premium materials and perfect tailoring. Worth every penny for the professional look.'],
-                    ['name' => 'Olivia Brown', 'role' => 'Lifestyle Blogger', 'text' => 'I love how versatile these pieces are. They easily transition from day to night.'],
-                    ['name' => 'David Miller', 'role' => 'Architect', 'text' => 'Minimalist aesthetic with high-end execution. The Chelsea boots are both stylish and comfortable.'],
+                    ['name' => 'Sarah Johnson', 'role' => 'Fashion Stylist', 'text' => 'The hair styling quality is exceptional. It has become a staple in my beauty routine.'],
+                    ['name' => 'Michael Chen', 'role' => 'Creative Director', 'text' => 'Modern techniques with a timeless feel. Parlour truly understands sophisticated beauty.'],
+                    ['name' => 'Emma Williams', 'role' => 'Store Manager', 'text' => 'Customer service was incredibly helpful with choosing the right treatment. The facial fits like a dream!'],
+                    ['name' => 'James Wilson', 'role' => 'Business Analyst', 'text' => 'Premium products and perfect technique. Worth every penny for the professional look.'],
+                    ['name' => 'Olivia Brown', 'role' => 'Lifestyle Blogger', 'text' => 'I love how versatile these services are. They easily transition from day to night.'],
+                    ['name' => 'David Miller', 'role' => 'Architect', 'text' => 'Minimalist aesthetic with high-end execution. The nail art is both stylish and comfortable.'],
                 ];
                 foreach ($reviews as $review): 
                 ?>

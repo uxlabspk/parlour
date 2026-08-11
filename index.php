@@ -130,7 +130,7 @@ $slider_products = $stmtSlider->fetchAll();
   "@type": "WebSite",
   "name": "Parlour",
     "url": "https://parlour.com",
-  "description": "Premium watches and timepieces for the discerning collector",
+  "description": "Premium beauty and hair salon services for the discerning client",
   "potentialAction": {
     "@type": "SearchAction",
     "target": "https://parlour.com/shop?search={search_term_string}",
@@ -167,24 +167,24 @@ $slider_products = $stmtSlider->fetchAll();
                 <!-- Slide 1 -->
                 <div class="hero-slide absolute inset-0 opacity-100 transition-opacity duration-1000">
                     <img 
-                        src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=1920&q=85" 
-                        alt="Luxury Watch Collection" 
+                        src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=1920&q=85" 
+                        alt="Premium Hair Salon" 
                         class="w-full h-full object-cover scale-105"
                     />
                 </div>
                 <!-- Slide 2 -->
                 <div class="hero-slide absolute inset-0 opacity-0 transition-opacity duration-1000">
                     <img 
-                        src="https://images.unsplash.com/photo-1587836374828-4dbafa94cf0e?w=1920&q=85" 
-                        alt="Sport Dive Watches" 
+                        src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=1920&q=85" 
+                        alt="Beauty Treatment" 
                         class="w-full h-full object-cover scale-105"
                     />
                 </div>
                 <!-- Slide 3 -->
                 <div class="hero-slide absolute inset-0 opacity-0 transition-opacity duration-1000">
                     <img 
-                        src="https://images.unsplash.com/photo-1524592094714-0f0654e20314?w=1920&q=85" 
-                        alt="Premium Gold Timepieces" 
+                        src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=1920&q=85" 
+                        alt="Nail Art Studio" 
                         class="w-full h-full object-cover scale-105"
                     />
                 </div>
@@ -207,34 +207,34 @@ $slider_products = $stmtSlider->fetchAll();
                     <div class="animate-fade-in-up opacity-0" style="animation-delay: 0.2s">
                         <span class="inline-flex items-center gap-2 px-5 py-2.5 rounded-full glass border border-white/20 text-white/90 text-sm font-medium tracking-wide">
                             <span class="w-2 h-2 bg-emerald-400 rounded-full animate-pulse"></span>
-                            New Collection 2026
+                            New Services 2026
                         </span>
                     </div>
 
                     <!-- Main Heading with Elegant Typography -->
                     <div class="space-y-4 animate-fade-in-up opacity-0" style="animation-delay: 0.4s">
                         <h1 class="text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-light text-white leading-[0.95] tracking-tight">
-                            Timeless
-                            <span class="block font-semibold mt-2">Precision</span>
+                            Your Beauty
+                            <span class="block font-semibold mt-2">Perfected</span>
                         </h1>
                     </div>
 
                     <!-- Refined Subheading -->
                     <p class="text-lg lg:text-xl text-white/70 max-w-xl leading-relaxed font-light animate-fade-in-up opacity-0" style="animation-delay: 0.6s">
-                        Discover curated collections of premium timepieces that blend timeless elegance with Swiss precision. 
-                        Every watch tells a story of craftsmanship and sophistication.
+                        Discover curated beauty services that blend timeless elegance with modern techniques. 
+                        Every treatment tells a story of artistry and sophistication.
                     </p>
 
                     <!-- CTA Buttons -->
                     <div class="flex flex-col sm:flex-row gap-4 pt-4 animate-fade-in-up opacity-0 justify-center" style="animation-delay: 0.8s">
                         <a href="https://parlour.com/shop" class="btn-elegant group inline-flex items-center justify-center gap-3 bg-white text-gray-900 px-8 py-4 rounded-full font-semibold text-base shadow-2xl shadow-white/20 hover:shadow-white/30 hover:bg-gray-50">
-                            Explore Collection
+                            Explore Services
                             <svg class="w-5 h-5 transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
                             </svg>
                         </a>
                         <a href="#collections-section" class="group inline-flex items-center justify-center gap-3 px-8 py-4 rounded-full font-semibold text-white border border-white/30 hover:bg-white/10 hover:border-white/50 transition-all duration-300">
-                            View Lookbook
+                            View Services
                         </a>
                     </div>
 
@@ -309,27 +309,27 @@ $slider_products = $stmtSlider->fetchAll();
     <div class="bg-gray-950 py-4 overflow-hidden">
         <div class="flex animate-marquee whitespace-nowrap">
             <?php for($i = 0; $i < 10; $i++): ?>
-                <span class="mx-8 text-white/40 text-sm font-medium tracking-widest uppercase">Swiss Precision</span>
+                <span class="mx-8 text-white/40 text-sm font-medium tracking-widest uppercase">Expert Stylists</span>
                 <span class="mx-4 text-white/20">✦</span>
-                <span class="mx-8 text-white/40 text-sm font-medium tracking-widest uppercase">Premium Quality</span>
+                <span class="mx-8 text-white/40 text-sm font-medium tracking-widest uppercase">Premium Products</span>
                 <span class="mx-4 text-white/20">✦</span>
-                <span class="mx-8 text-white/40 text-sm font-medium tracking-widest uppercase">Timeless Design</span>
+                <span class="mx-8 text-white/40 text-sm font-medium tracking-widest uppercase">Relaxing Experience</span>
                 <span class="mx-4 text-white/20">✦</span>
             <?php endfor; ?>
         </div>
     </div>
 
-    <!-- New Arrivals Section - Refined -->
+    <!-- New Services Section - Refined -->
     <section class="py-24 lg:py-32 bg-white overflow-hidden">
         <div class="max-w-7xl mx-auto px-6 lg:px-8">
             <!-- Section Header -->
             <div class="flex flex-col lg:flex-row justify-between items-start lg:items-end mb-16 gap-8">
                 <div class="max-w-xl">
-                    <span class="inline-block text-sm font-semibold text-gray-400 tracking-widest uppercase mb-4">Just Dropped</span>
+                    <span class="inline-block text-sm font-semibold text-gray-400 tracking-widest uppercase mb-4">Just Added</span>
                     <h2 class="text-4xl lg:text-5xl font-light text-gray-900 mb-4 tracking-tight">
-                        New <span class="font-semibold">Arrivals</span>
+                        New <span class="font-semibold">Services</span>
                     </h2>
-                    <p class="text-gray-500 text-lg leading-relaxed">Fresh timepieces crafted for the modern collector. Discover watches that define contemporary elegance.</p>
+                    <p class="text-gray-500 text-lg leading-relaxed">Fresh beauty services crafted for the modern client. Discover treatments that define contemporary elegance.</p>
                 </div>
                 <div class="flex items-center gap-3">
                     <button id="prevBtn" class="w-14 h-14 rounded-full border-2 border-gray-200 flex items-center justify-center hover:bg-gray-900 hover:border-gray-900 hover:text-white transition-all duration-300 group">
@@ -443,27 +443,27 @@ $slider_products = $stmtSlider->fetchAll();
     </script>
 
 
-    <!-- Collections Section - Bento Grid Style -->
+    <!-- Services Section - Bento Grid Style -->
     <section id="collections-section" class="relative bg-gray-50 py-24 lg:py-32 px-6 lg:px-8">
         <div class="max-w-7xl mx-auto">
             <!-- Section Header -->
             <div class="text-center mb-16 lg:mb-20">
                 <span class="inline-block text-sm font-semibold text-gray-400 tracking-widest uppercase mb-4">Curated For You</span>
                 <h2 class="text-4xl lg:text-6xl font-light text-gray-900 mb-6 tracking-tight">
-                    Shop by <span class="font-semibold">Collection</span>
+                    Shop by <span class="font-semibold">Service</span>
                 </h2>
                 <p class="text-lg text-gray-500 max-w-2xl mx-auto leading-relaxed">
-                    Explore our thoughtfully curated collections, each designed to complement your unique style and occasion.
+                    Explore our thoughtfully curated services, each designed to complement your unique style and occasion.
                 </p>
             </div>
 
             <!-- Bento Grid Layout -->
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 lg:gap-8">
-                <!-- Large Card - Luxury Watches -->
-                <a href="https://parlour.com/collections?category=luxury" class="group relative lg:col-span-2 lg:row-span-2 h-[500px] lg:h-auto rounded-[2rem] overflow-hidden hover-lift block">
+                <!-- Large Card - Hair Services -->
+                <a href="https://parlour.com/collections?category=hair" class="group relative lg:col-span-2 lg:row-span-2 h-[500px] lg:h-auto rounded-[2rem] overflow-hidden hover-lift block">
                     <img 
-                        src="https://images.unsplash.com/photo-1547996160-81dfa63595aa?w=1200&q=85" 
-                        alt="Luxury Watch Collection" 
+                        src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=1200&q=85" 
+                        alt="Hair Services Collection" 
                         class="w-full h-full object-cover img-zoom"
                         loading="lazy"
                     />
@@ -471,11 +471,11 @@ $slider_products = $stmtSlider->fetchAll();
                     
                     <!-- Content -->
                     <div class="absolute inset-0 p-8 lg:p-12 flex flex-col justify-end">
-                        <span class="inline-block w-fit bg-white/20 backdrop-blur-md text-white text-xs font-semibold px-4 py-1.5 rounded-full mb-4">Featured Collection</span>
-                        <h3 class="text-3xl lg:text-4xl font-semibold text-white mb-3 tracking-tight">Luxury Timepieces</h3>
-                        <p class="text-white/80 text-base lg:text-lg mb-6 max-w-md leading-relaxed">Experience elegance with our premium Swiss-made luxury watches.</p>
+                        <span class="inline-block w-fit bg-white/20 backdrop-blur-md text-white text-xs font-semibold px-4 py-1.5 rounded-full mb-4">Featured Service</span>
+                        <h3 class="text-3xl lg:text-4xl font-semibold text-white mb-3 tracking-tight">Hair Services</h3>
+                        <p class="text-white/80 text-base lg:text-lg mb-6 max-w-md leading-relaxed">Experience elegance with our premium hair styling and treatments.</p>
                         <div class="flex items-center gap-3 text-white font-medium">
-                            <span>Explore Collection</span>
+                            <span>Explore Services</span>
                             <div class="w-10 h-10 rounded-full bg-white/20 backdrop-blur-md flex items-center justify-center group-hover:bg-white group-hover:text-gray-900 transition-all duration-300">
                                 <svg class="w-5 h-5 transition-transform group-hover:translate-x-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
@@ -485,21 +485,21 @@ $slider_products = $stmtSlider->fetchAll();
                     </div>
                 </a>
 
-                <!-- Sport Watches Card -->
-                <a href="https://parlour.com/collections?category=sport" class="group relative h-[350px] lg:h-auto rounded-[2rem] overflow-hidden hover-lift block">
+                <!-- Skin Treatments Card -->
+                <a href="https://parlour.com/collections?category=skin" class="group relative h-[350px] lg:h-auto rounded-[2rem] overflow-hidden hover-lift block">
                     <img 
-                        src="https://images.unsplash.com/photo-1713470411177-69b6505c4536?w=800&q=85" 
-                        alt="Sport Watch Collection" 
+                        src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=800&q=85" 
+                        alt="Skin Treatments Collection" 
                         class="w-full h-full object-cover img-zoom"
                         loading="lazy"
                     />
                     <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
                     
                     <div class="absolute inset-0 p-6 lg:p-8 flex flex-col justify-end">
-                        <h3 class="text-2xl font-semibold text-white mb-2 tracking-tight">Sport Watches</h3>
-                        <p class="text-white/70 text-sm mb-4">Performance meets style</p>
+                        <h3 class="text-2xl font-semibold text-white mb-2 tracking-tight">Skin Treatments</h3>
+                        <p class="text-white/70 text-sm mb-4">Glow meets relaxation</p>
                         <div class="flex items-center gap-2 text-white text-sm font-medium">
-                            <span>Shop Now</span>
+                            <span>Book Now</span>
                             <svg class="w-4 h-4 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
                             </svg>
@@ -507,21 +507,21 @@ $slider_products = $stmtSlider->fetchAll();
                     </div>
                 </a>
 
-                <!-- Smart Watches Card -->
-                <a href="https://parlour.com/collections?category=smart" class="group relative h-[350px] lg:h-auto rounded-[2rem] overflow-hidden hover-lift block">
+                <!-- Nail Art Card -->
+                <a href="https://parlour.com/collections?category=nails" class="group relative h-[350px] lg:h-auto rounded-[2rem] overflow-hidden hover-lift block">
                     <img 
-                        src="https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=800&q=85" 
-                        alt="Smart Watch Collection" 
+                        src="https://images.unsplash.com/photo-1604654894610-df63bc536371?w=800&q=85" 
+                        alt="Nail Art Collection" 
                         class="w-full h-full object-cover img-zoom"
                         loading="lazy"
                     />
                     <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
                     
                     <div class="absolute inset-0 p-6 lg:p-8 flex flex-col justify-end">
-                        <h3 class="text-2xl font-semibold text-white mb-2 tracking-tight">Smart Watches</h3>
-                        <p class="text-white/70 text-sm mb-4">Technology & elegance</p>
+                        <h3 class="text-2xl font-semibold text-white mb-2 tracking-tight">Nail Art</h3>
+                        <p class="text-white/70 text-sm mb-4">Creativity & precision</p>
                         <div class="flex items-center gap-2 text-white text-sm font-medium">
-                            <span>Shop Now</span>
+                            <span>Book Now</span>
                             <svg class="w-4 h-4 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
                             </svg>
@@ -530,10 +530,10 @@ $slider_products = $stmtSlider->fetchAll();
                 </a>
             </div>
 
-            <!-- View All Collections -->
+            <!-- View All Services -->
             <div class="text-center mt-12 lg:mt-16">
                 <a href="https://parlour.com/collections" class="inline-flex items-center gap-3 px-8 py-4 bg-gray-900 text-white rounded-full font-semibold hover:bg-gray-800 transition-all duration-300 group">
-                    View All Collections
+                    View All Services
                     <svg class="w-5 h-5 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
                     </svg>
@@ -552,7 +552,7 @@ $slider_products = $stmtSlider->fetchAll();
                     <h2 class="text-4xl lg:text-5xl font-light text-gray-900 mb-4 tracking-tight">
                         Featured <span class="font-semibold">Products</span>
                     </h2>
-                    <p class="text-gray-500 text-lg leading-relaxed">Our most loved pieces, meticulously crafted for those who appreciate refined quality.</p>
+                    <p class="text-gray-500 text-lg leading-relaxed">Our most loved beauty products, meticulously selected for those who appreciate refined quality.</p>
                 </div>
                 <a href="https://parlour.com/shop" class="group inline-flex items-center gap-2 text-gray-900 font-semibold hover:text-gray-600 transition-colors">
                     View All
@@ -674,8 +674,8 @@ $slider_products = $stmtSlider->fetchAll();
             <!-- Left: Image -->
             <div class="relative h-[400px] lg:h-auto">
                 <img 
-                    src="https://images.unsplash.com/photo-1445205170230-053b83016050?w=1000&q=85" 
-                    alt="Parlour Gift Cards - Premium Fashion Gift" 
+                    src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=1000&q=85" 
+                    alt="Parlour Gift Cards - Premium Beauty Gift" 
                     class="w-full h-full object-cover"
                     loading="lazy"
                 />
@@ -687,10 +687,10 @@ $slider_products = $stmtSlider->fetchAll();
                 <div class="max-w-lg text-center lg:text-left">
                     <span class="inline-block text-sm font-semibold text-white/50 tracking-[0.3em] uppercase mb-6">The Perfect Gift</span>
                     <h2 class="text-4xl lg:text-5xl xl:text-6xl font-light text-white mb-6 leading-tight tracking-tight">
-                        Give the Gift of <span class="font-semibold">Time</span>
+                        Give the Gift of <span class="font-semibold">Beauty</span>
                     </h2>
                     <p class="text-lg text-white/60 mb-10 leading-relaxed">
-                        Let them choose their perfect timepiece. Our gift cards are the ideal present for any watch enthusiast.
+                        Let them choose their perfect beauty treatment. Our gift cards are the ideal present for any beauty enthusiast.
                     </p>
                     <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
                         <a href="https://parlour.com/shop" class="btn-elegant group inline-flex items-center justify-center gap-3 bg-white text-gray-900 px-8 py-4 rounded-full font-semibold hover:bg-gray-100 transition-all duration-300">
@@ -738,12 +738,12 @@ $slider_products = $stmtSlider->fetchAll();
                 <div id="reviewSlider" class="flex transition-transform duration-500 ease-out gap-6">
                     <?php 
                     $reviews = [
-                        ['name' => 'Sarah Johnson', 'role' => 'Watch Collector', 'text' => 'The chronograph watch is exceptional. Swiss precision at its finest. Definitely worth the investment.'],
-                        ['name' => 'Michael Chen', 'role' => 'Tech Executive', 'text' => 'The smart watch perfectly blends technology with elegance. Best purchase I\'ve made this year.'],
-                        ['name' => 'Emma Williams', 'role' => 'Fitness Trainer', 'text' => 'The sport watch is incredibly durable and accurate. Perfect companion for my training sessions.'],
-                        ['name' => 'James Wilson', 'role' => 'Investment Banker', 'text' => 'Premium craftsmanship and perfect timekeeping. The gold watch elevates my professional look.'],
-                        ['name' => 'Olivia Brown', 'role' => 'Lifestyle Blogger', 'text' => 'I love the minimalist design. The watch is versatile and works with any outfit, day or night.'],
-                        ['name' => 'David Miller', 'role' => 'Pilot', 'text' => 'The pilot watch is both functional and stylish. Robust build quality with aviation-grade precision.'],
+                        ['name' => 'Sarah Johnson', 'role' => 'Beauty Enthusiast', 'text' => 'The hair styling service is exceptional. Expert precision at its finest. Definitely worth the investment.'],
+                        ['name' => 'Michael Chen', 'role' => 'Business Executive', 'text' => 'The skin treatment perfectly blends relaxation with results. Best experience I\'ve had this year.'],
+                        ['name' => 'Emma Williams', 'role' => 'Fitness Trainer', 'text' => 'The nail art service is incredibly detailed and beautiful. Perfect for my training sessions!'],
+                        ['name' => 'James Wilson', 'role' => 'Investment Banker', 'text' => 'Premium service and perfect results. The hair treatment elevates my professional look.'],
+                        ['name' => 'Olivia Brown', 'role' => 'Lifestyle Blogger', 'text' => 'I love the relaxing atmosphere. The services are versatile and work for any occasion, day or night.'],
+                        ['name' => 'David Miller', 'role' => 'Architect', 'text' => 'The bridal package is both comprehensive and stunning. Robust service quality with attention to detail.'],
                     ];
                     foreach ($reviews as $review): 
                     ?>
@@ -831,16 +831,16 @@ $slider_products = $stmtSlider->fetchAll();
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12">
-                <!-- Feature 1: Secure Payments -->
+                <!-- Feature 1: Expert Stylists -->
                 <div class="group relative p-8 lg:p-10 rounded-3xl bg-gray-50 hover:bg-gray-900 transition-all duration-500 hover-lift">
                     <div class="w-16 h-16 bg-white rounded-2xl flex items-center justify-center mb-8 shadow-sm group-hover:bg-white/10 transition-colors duration-500">
                         <svg class="w-8 h-8 text-gray-900 group-hover:text-white transition-colors duration-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                         </svg>
                     </div>
-                    <h3 class="text-xl lg:text-2xl font-semibold text-gray-900 group-hover:text-white mb-4 tracking-tight transition-colors duration-500">Secure Payments</h3>
+                    <h3 class="text-xl lg:text-2xl font-semibold text-gray-900 group-hover:text-white mb-4 tracking-tight transition-colors duration-500">Expert Stylists</h3>
                     <p class="text-gray-500 group-hover:text-white/70 leading-relaxed transition-colors duration-500">
-                        Shop with complete peace of mind. Your transactions are protected with industry-leading encryption standards.
+                        Our team of expert stylists are dedicated to enhancing your beauty with precision and care.
                     </p>
                     
                     <!-- Decorative Arrow -->
@@ -851,16 +851,16 @@ $slider_products = $stmtSlider->fetchAll();
                     </div>
                 </div>
 
-                <!-- Feature 2: Premium Delivery -->
+                <!-- Feature 2: Premium Products -->
                 <div class="group relative p-8 lg:p-10 rounded-3xl bg-gray-50 hover:bg-gray-900 transition-all duration-500 hover-lift">
                     <div class="w-16 h-16 bg-white rounded-2xl flex items-center justify-center mb-8 shadow-sm group-hover:bg-white/10 transition-colors duration-500">
                         <svg class="w-8 h-8 text-gray-900 group-hover:text-white transition-colors duration-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4" />
                         </svg>
                     </div>
-                    <h3 class="text-xl lg:text-2xl font-semibold text-gray-900 group-hover:text-white mb-4 tracking-tight transition-colors duration-500">Premium Delivery</h3>
+                    <h3 class="text-xl lg:text-2xl font-semibold text-gray-900 group-hover:text-white mb-4 tracking-tight transition-colors duration-500">Premium Products</h3>
                     <p class="text-gray-500 group-hover:text-white/70 leading-relaxed transition-colors duration-500">
-                        Every order is handled with utmost care. Beautifully packaged and delivered right to your doorstep.
+                        We use only the finest beauty products to ensure exceptional results for every treatment.
                     </p>
                     
                     <div class="absolute bottom-8 right-8 w-10 h-10 rounded-full bg-gray-200 group-hover:bg-white flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-500 translate-y-2 group-hover:translate-y-0">
@@ -870,16 +870,16 @@ $slider_products = $stmtSlider->fetchAll();
                     </div>
                 </div>
 
-                <!-- Feature 3: Dedicated Support -->
+                <!-- Feature 3: Relaxing Experience -->
                 <div class="group relative p-8 lg:p-10 rounded-3xl bg-gray-50 hover:bg-gray-900 transition-all duration-500 hover-lift">
                     <div class="w-16 h-16 bg-white rounded-2xl flex items-center justify-center mb-8 shadow-sm group-hover:bg-white/10 transition-colors duration-500">
                         <svg class="w-8 h-8 text-gray-900 group-hover:text-white transition-colors duration-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
                         </svg>
                     </div>
-                    <h3 class="text-xl lg:text-2xl font-semibold text-gray-900 group-hover:text-white mb-4 tracking-tight transition-colors duration-500">Dedicated Support</h3>
+                    <h3 class="text-xl lg:text-2xl font-semibold text-gray-900 group-hover:text-white mb-4 tracking-tight transition-colors duration-500">Relaxing Experience</h3>
                     <p class="text-gray-500 group-hover:text-white/70 leading-relaxed transition-colors duration-500">
-                        Our expert team is here to assist you at every step. Your satisfaction is our top priority.
+                        Our serene environment is designed to help you unwind and enjoy your beauty journey.
                     </p>
                     
                     <div class="absolute bottom-8 right-8 w-10 h-10 rounded-full bg-gray-200 group-hover:bg-white flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-500 translate-y-2 group-hover:translate-y-0">

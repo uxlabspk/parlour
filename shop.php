@@ -97,8 +97,8 @@ $featured_products = $stmtFeatured->fetchAll();
 <div class="relative h-[60vh] min-h-[500px] flex items-center justify-center overflow-hidden">
     <div class="absolute inset-0 -z-10">
         <img 
-            src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=1920&q=85" 
-            alt="Shop Watch Collection" 
+            src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=1920&q=85" 
+            alt="Shop Beauty Services" 
             class="w-full h-full object-cover"
         />
         <div class="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-transparent"></div>
@@ -107,15 +107,15 @@ $featured_products = $stmtFeatured->fetchAll();
     <div class="relative z-10 text-center px-6">
         <span class="inline-block text-sm font-semibold text-white/70 tracking-[0.3em] uppercase mb-4">Discover</span>
         <h1 class="text-5xl lg:text-6xl font-light text-white mb-4 tracking-tight">
-            Our <span class="font-semibold">Timepieces</span>
+            Our <span class="font-semibold">Services</span>
         </h1>
         <p class="text-lg text-white/70 max-w-xl mx-auto">
             <?php if ($category): ?>
-                Explore our <?php echo htmlspecialchars($category); ?> collection
+                Explore our <?php echo htmlspecialchars($category); ?> services
             <?php elseif ($search): ?>
                 Search results for "<?php echo htmlspecialchars($search); ?>"
             <?php else: ?>
-                Curated watches designed for timeless precision
+                Curated beauty services designed for timeless elegance
             <?php endif; ?>
         </p>
     </div>
@@ -224,7 +224,7 @@ $featured_products = $stmtFeatured->fetchAll();
                     <h3 class="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-4">Category</h3>
                     <div class="space-y-1">
                         <?php
-                        $categories = ['Luxury Watches', 'Sport Watches', 'Smart Watches', 'Casual Watches', 'Watch Accessories'];
+                        $categories = ['Hair Services', 'Skin Treatments', 'Nail Art', 'Bridal Packages', 'Beauty Products'];
                         foreach ($categories as $cat):
                         ?>
                             <a href="https://parlour.com/shop?<?php echo http_build_query(array_filter(['category' => $cat, 'price' => $priceRange, 'search' => $search])); ?>" 
@@ -376,12 +376,12 @@ $featured_products = $stmtFeatured->fetchAll();
             <div id="reviewSlider" class="flex transition-transform duration-500 ease-out gap-6">
                 <?php 
                 $reviews = [
-                    ['name' => 'Sarah Johnson', 'role' => 'Watch Collector', 'text' => 'The chronograph watch is exceptional. Swiss precision at its finest. Definitely worth the investment.'],
-                    ['name' => 'Michael Chen', 'role' => 'Tech Executive', 'text' => 'The smart watch perfectly blends technology with elegance. Best purchase I\'ve made this year.'],
-                    ['name' => 'Emma Williams', 'role' => 'Fitness Trainer', 'text' => 'Customer service was incredibly helpful. The sport watch is perfect for my training sessions!'],
-                    ['name' => 'James Wilson', 'role' => 'Investment Banker', 'text' => 'Premium craftsmanship and perfect timekeeping. The gold watch elevates my professional look.'],
-                    ['name' => 'Olivia Brown', 'role' => 'Lifestyle Blogger', 'text' => 'I love the minimalist design. The watch is versatile and works with any outfit, day or night.'],
-                    ['name' => 'David Miller', 'role' => 'Pilot', 'text' => 'The pilot watch is both functional and stylish. Robust build quality with aviation-grade precision.'],
+                    ['name' => 'Sarah Johnson', 'role' => 'Beauty Enthusiast', 'text' => 'The hair styling service is exceptional. Expert precision at its finest. Definitely worth the investment.'],
+                    ['name' => 'Michael Chen', 'role' => 'Business Executive', 'text' => 'The skin treatment perfectly blends relaxation with results. Best experience I\'ve had this year.'],
+                    ['name' => 'Emma Williams', 'role' => 'Fitness Trainer', 'text' => 'Customer service was incredibly helpful. The nail art is perfect for my training sessions!'],
+                    ['name' => 'James Wilson', 'role' => 'Investment Banker', 'text' => 'Premium service and perfect results. The hair treatment elevates my professional look.'],
+                    ['name' => 'Olivia Brown', 'role' => 'Lifestyle Blogger', 'text' => 'I love the relaxing atmosphere. The services are versatile and work for any occasion, day or night.'],
+                    ['name' => 'David Miller', 'role' => 'Architect', 'text' => 'The bridal package is both comprehensive and stunning. Robust service quality with attention to detail.'],
                 ];
                 foreach ($reviews as $review): 
                 ?>

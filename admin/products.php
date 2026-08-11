@@ -377,11 +377,11 @@ $products = $stmt->fetchAll();
                     <label class="block text-sm font-medium text-gray-700 mb-2">Category</label>
                     <select name="category" required class="w-full px-4 py-3 border border-gray-200 rounded-xl outline-none focus:border-gray-400 focus:ring-2 focus:ring-gray-100 transition-all duration-200">
                         <option value="">Select category</option>
-                        <option value="Luxury Watches">Luxury Watches</option>
-                        <option value="Sport Watches">Sport Watches</option>
-                        <option value="Smart Watches">Smart Watches</option>
-                        <option value="Casual Watches">Casual Watches</option>
-                        <option value="Watch Accessories">Watch Accessories</option>
+                        <option value="Hair Services">Hair Services</option>
+                        <option value="Skin Treatments">Skin Treatments</option>
+                        <option value="Nail Art">Nail Art</option>
+                        <option value="Bridal Packages">Bridal Packages</option>
+                        <option value="Beauty Products">Beauty Products</option>
                     </select>
                 </div>
                 <div class="flex items-center pt-8">
@@ -467,11 +467,11 @@ $products = $stmt->fetchAll();
                     <?php $curCat = htmlspecialchars($editProduct['category'] ?? ''); ?>
                     <select name="category" required class="w-full px-4 py-3 border border-gray-200 rounded-xl outline-none focus:border-gray-400 focus:ring-2 focus:ring-gray-100 transition-all duration-200">
                         <option value="">Select category</option>
-                        <option value="Luxury Watches" <?php echo $curCat === 'Luxury Watches' ? 'selected' : ''; ?>>Luxury Watches</option>
-                        <option value="Sport Watches" <?php echo $curCat === 'Sport Watches' ? 'selected' : ''; ?>>Sport Watches</option>
-                        <option value="Smart Watches" <?php echo $curCat === 'Smart Watches' ? 'selected' : ''; ?>>Smart Watches</option>
-                        <option value="Casual Watches" <?php echo $curCat === 'Casual Watches' ? 'selected' : ''; ?>>Casual Watches</option>
-                        <option value="Watch Accessories" <?php echo $curCat === 'Watch Accessories' ? 'selected' : ''; ?>>Watch Accessories</option>
+                        <option value="Hair Services" <?php echo $curCat === 'Hair Services' ? 'selected' : ''; ?>>Hair Services</option>
+                        <option value="Skin Treatments" <?php echo $curCat === 'Skin Treatments' ? 'selected' : ''; ?>>Skin Treatments</option>
+                        <option value="Nail Art" <?php echo $curCat === 'Nail Art' ? 'selected' : ''; ?>>Nail Art</option>
+                        <option value="Bridal Packages" <?php echo $curCat === 'Bridal Packages' ? 'selected' : ''; ?>>Bridal Packages</option>
+                        <option value="Beauty Products" <?php echo $curCat === 'Beauty Products' ? 'selected' : ''; ?>>Beauty Products</option>
                     </select>
                 </div>
                 <div class="flex items-center pt-8">

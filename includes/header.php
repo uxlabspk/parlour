@@ -29,10 +29,10 @@ if (isLoggedIn()) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!-- Primary Meta Tags -->
-    <title>Parlour - Premium Watches & Timepieces</title>
-    <meta name="title" content="Parlour - Premium Watches & Timepieces">
-    <meta name="description" content="Discover Parlour' curated collection of premium watches. Shop luxury timepieces, sport watches, smart watches, and watch accessories. Free shipping on orders over PKR 100.">
-    <meta name="keywords" content="watches, luxury watches, sport watches, smart watches, timepieces, watch accessories, online watch store, premium watches, parlour">
+    <title>Parlour - Premium Beauty & Hair Salon</title>
+    <meta name="title" content="Parlour - Premium Beauty & Hair Salon">
+    <meta name="description" content="Discover Parlour's curated collection of beauty services. Premium hair styling, skin treatments, nail art, and beauty products. Book your appointment today.">
+    <meta name="keywords" content="beauty salon, hair salon, hair styling, skin treatments, nail art, beauty products, parlour, premium beauty, Rawalpindi">
     <meta name="author" content="Parlour">
     <meta name="robots" content="index, follow">
     
@@ -42,17 +42,17 @@ if (isLoggedIn()) {
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://parlour.com<?php echo $_SERVER['REQUEST_URI']; ?>">
-    <meta property="og:title" content="Parlour - Premium Watches & Timepieces">
-    <meta property="og:description" content="Discover Parlour' curated collection of premium watches. Shop luxury timepieces, sport watches, and smart watches.">
-    <meta property="og:image" content="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=1200&h=630&q=80&fit=crop">
+    <meta property="og:title" content="Parlour - Premium Beauty & Hair Salon">
+    <meta property="og:description" content="Discover Parlour's curated collection of beauty services. Premium hair styling, skin treatments, and nail art.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=1200&h=630&q=80&fit=crop">
     <meta property="og:site_name" content="Parlour">
     
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://parlour.com<?php echo $_SERVER['REQUEST_URI']; ?>">
-    <meta property="twitter:title" content="Parlour - Premium Watches & Timepieces">
-    <meta property="twitter:description" content="Discover Parlour' curated collection of premium watches. Shop luxury timepieces, sport watches, and smart watches.">
-    <meta property="twitter:image" content="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=1200&h=630&q=80&fit=crop">
+    <meta property="twitter:title" content="Parlour - Premium Beauty & Hair Salon">
+    <meta property="twitter:description" content="Discover Parlour's curated collection of beauty services. Premium hair styling, skin treatments, and nail art.">
+    <meta property="twitter:image" content="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=1200&h=630&q=80&fit=crop">
     
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="https://parlour.com/assets/images/favicon.svg">
@@ -90,11 +90,11 @@ if (isLoggedIn()) {
     <nav class="fixed top-6 left-1/2 -translate-x-1/2 z-50 w-[92%] max-w-5xl">
         <div class="bg-white/95 backdrop-blur-md rounded-2xl shadow-lg shadow-gray-900/5 px-6 py-4 flex items-center justify-between border border-gray-100/80">
             <!-- Logo -->
-            <a href="https://parlour.com/" class="flex items-center gap-2 group" aria-label="Parlour Home - Premium Fashion Store">
+            <a href="https://parlour.com/" class="flex items-center gap-2 group" aria-label="Parlour Home - Premium Beauty Salon">
                 <img 
                     src="https://parlour.com/assets/images/logo.png" 
-                    alt="Parlour Logo - Premium Watches & Timepieces" 
-                    title="Parlour - Your Destination for Luxury Watches"
+                    alt="Parlour Logo - Premium Beauty & Hair Salon" 
+                    title="Parlour - Your Destination for Premium Beauty Services"
                     width="60" 
                     height="60"
                     class="transition-transform duration-300 group-hover:scale-105"

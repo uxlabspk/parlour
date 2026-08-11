@@ -7,8 +7,8 @@ include __DIR__ . '/includes/header.php';
  <div class="relative h-[60vh] min-h-[500px] flex items-center justify-center overflow-hidden">
     <div class="absolute inset-0 -z-10">
         <img 
-            src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=1920&q=85" 
-            alt="Watch Collections" 
+            src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=1920&q=85" 
+            alt="Beauty Service Collections" 
             class="w-full h-full object-cover"
         />
         <div class="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-transparent"></div>
@@ -17,10 +17,10 @@ include __DIR__ . '/includes/header.php';
     <div class="relative z-10 text-center px-6">
         <span class="inline-block text-sm font-semibold text-white/70 tracking-[0.3em] uppercase mb-4">Explore</span>
         <h1 class="text-5xl lg:text-6xl font-light text-white mb-4 tracking-tight">
-            Our <span class="font-semibold">Collections</span>
+            Our <span class="font-semibold">Services</span>
         </h1>
         <p class="text-lg text-white/70 max-w-xl mx-auto">
-            Explore our curated selections, each timepiece designed with precision and elegance.
+            Explore our curated selections, each service designed with precision and elegance.
         </p>
     </div>
 </div>
@@ -129,24 +129,24 @@ document.addEventListener('DOMContentLoaded', function() {
 <!-- Collections Grid -->
 <section class="py-24">
     <div class="max-w-7xl mx-auto px-6 lg:px-8">
-        <!-- Main Collections - Luxury & Sport Watches -->
+        <!-- Main Collections - Hair & Skin Services -->
         <div class="grid md:grid-cols-2 gap-6 mb-6">
-            <!-- Luxury Watches Collection -->
-            <a href="https://parlour.com/shop?category=Luxury Watches" class="group relative aspect-[3/4] rounded-3xl overflow-hidden block">
+            <!-- Hair Services Collection -->
+            <a href="https://parlour.com/shop?category=Hair Services" class="group relative aspect-[3/4] rounded-3xl overflow-hidden block">
                 <img 
-                    src="https://images.unsplash.com/photo-1547996160-81dfa63595aa?w=1200&q=80" 
-                    alt="Luxury Watch Collection" 
+                    src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=1200&q=80" 
+                    alt="Hair Services Collection" 
                     class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" 
                     loading="lazy"
                 >
                 <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
                 <div class="absolute bottom-10 left-10 right-10">
-                    <span class="inline-block text-xs font-semibold text-white/60 tracking-[0.2em] uppercase mb-3">Collection</span>
+                    <span class="inline-block text-xs font-semibold text-white/60 tracking-[0.2em] uppercase mb-3">Service</span>
                     <h2 class="text-3xl lg:text-4xl font-light text-white mb-4">
-                        Luxury <span class="font-semibold">Timepieces</span>
+                        Hair <span class="font-semibold">Services</span>
                     </h2>
                     <span class="inline-flex items-center gap-2 text-white text-sm font-semibold group-hover:gap-4 transition-all duration-300">
-                        Shop Luxury
+                        Explore Hair
                         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
                         </svg>
@@ -154,22 +154,22 @@ document.addEventListener('DOMContentLoaded', function() {
                 </div>
             </a>
 
-            <!-- Sport Watches Collection -->
-            <a href="https://parlour.com/shop?category=Sport Watches" class="group relative aspect-[3/4] rounded-3xl overflow-hidden block">
+            <!-- Skin Treatments Collection -->
+            <a href="https://parlour.com/shop?category=Skin Treatments" class="group relative aspect-[3/4] rounded-3xl overflow-hidden block">
                 <img 
-                    src="https://images.unsplash.com/photo-1600721391776-b5cd0e0048a9?w=1200&q=80" 
-                    alt="Sport Watch Collection" 
+                    src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=1200&q=80" 
+                    alt="Skin Treatments Collection" 
                     class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" 
                     loading="lazy"
                 >
                 <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
                 <div class="absolute bottom-10 left-10 right-10">
-                    <span class="inline-block text-xs font-semibold text-white/60 tracking-[0.2em] uppercase mb-3">Collection</span>
+                    <span class="inline-block text-xs font-semibold text-white/60 tracking-[0.2em] uppercase mb-3">Service</span>
                     <h2 class="text-3xl lg:text-4xl font-light text-white mb-4">
-                        Sport <span class="font-semibold">Watches</span>
+                        Skin <span class="font-semibold">Treatments</span>
                     </h2>
                     <span class="inline-flex items-center gap-2 text-white text-sm font-semibold group-hover:gap-4 transition-all duration-300">
-                        Shop Sport
+                        Explore Skin
                         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
                         </svg>
@@ -178,22 +178,22 @@ document.addEventListener('DOMContentLoaded', function() {
             </a>
         </div>
 
-        <!-- Smart Watches - Full Width -->
-        <a href="https://parlour.com/shop?category=Smart Watches" class="group relative aspect-[21/9] rounded-3xl overflow-hidden block mb-6">
+        <!-- Nail Art - Full Width -->
+        <a href="https://parlour.com/shop?category=Nail Art" class="group relative aspect-[21/9] rounded-3xl overflow-hidden block mb-6">
             <img 
-                src="https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=1600&q=80" 
-                alt="Smart Watch Collection" 
+                src="https://images.unsplash.com/photo-1604654894610-df63bc536371?w=1600&q=80" 
+                alt="Nail Art Collection" 
                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" 
                 loading="lazy"
             >
             <div class="absolute inset-0 bg-gradient-to-r from-black/70 via-black/30 to-transparent"></div>
             <div class="absolute bottom-10 left-10 right-10 md:right-auto md:max-w-xl">
-                <span class="inline-block text-xs font-semibold text-white/60 tracking-[0.2em] uppercase mb-3">Collection</span>
+                <span class="inline-block text-xs font-semibold text-white/60 tracking-[0.2em] uppercase mb-3">Service</span>
                 <h2 class="text-3xl lg:text-4xl font-light text-white mb-4">
-                    Smart <span class="font-semibold">Watches</span>
+                    Nail <span class="font-semibold">Art</span>
                 </h2>
                 <span class="inline-flex items-center gap-2 text-white text-sm font-semibold group-hover:gap-4 transition-all duration-300">
-                    Explore Smart Watches
+                    Explore Nail Art
                     <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
                     </svg>
