@@ -5,7 +5,7 @@ requireLogin();
 
 $cart = $_SESSION['cart'] ?? [];
 if (empty($cart)) {
-    header("Location: https://parlour.com/cart");
+    header("Location: http://localhost:8080/cart.php");
     exit;
 }
 
@@ -55,7 +55,7 @@ $shippingCountry = $savedAddress ? $savedAddress['country'] : 'US';
 <div class="max-w-7xl mx-auto px-6 lg:px-8 pt-28 lg:pt-36 pb-16 lg:pb-24">
     <!-- Page Header -->
     <div class="mb-12">
-        <a href="https://parlour.com/cart" class="inline-flex items-center gap-2 text-gray-500 hover:text-gray-900 transition mb-4">
+        <a href="http://localhost:8080/cart.php" class="inline-flex items-center gap-2 text-gray-500 hover:text-gray-900 transition mb-4">
             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"/></svg>
             <span class="text-sm font-medium">Back to Bag</span>
         </a>
@@ -64,7 +64,7 @@ $shippingCountry = $savedAddress ? $savedAddress['country'] : 'US';
         </h1>
     </div>
 
-    <form action="https://parlour.com/api/place_order.php" method="POST" class="grid lg:grid-cols-3 gap-8 lg:gap-12">
+    <form action="http://localhost:8080/api/place_order.php" method="POST" class="grid lg:grid-cols-3 gap-8 lg:gap-12">
         <!-- Shipping Information -->
         <div class="lg:col-span-2 space-y-8">
             <!-- Shipping Section -->
@@ -75,7 +75,7 @@ $shippingCountry = $savedAddress ? $savedAddress['country'] : 'US';
                         <h2 class="text-xl font-semibold tracking-tight">Shipping</h2>
                     </div>
                     <?php if ($savedAddress): ?>
-                        <a href="https://parlour.com/profile?tab=addresses" class="text-sm text-gray-500 hover:text-gray-900 font-medium">
+                        <a href="http://localhost:8080/profile.php?tab=addresses" class="text-sm text-gray-500 hover:text-gray-900 font-medium">
                             Change Address
                         </a>
                     <?php endif; ?>
@@ -89,7 +89,7 @@ $shippingCountry = $savedAddress ? $savedAddress['country'] : 'US';
                             </svg>
                             <div>
                                 <p class="text-sm font-semibold text-emerald-900">Using saved address</p>
-                                <p class="text-xs text-emerald-700 mt-1">You can manage addresses in your <a href="https://parlour.com/profile?tab=addresses" class="underline font-medium">profile settings</a></p>
+                                <p class="text-xs text-emerald-700 mt-1">You can manage addresses in your <a href="http://localhost:8080/profile.php?tab=addresses" class="underline font-medium">profile settings</a></p>
                             </div>
                         </div>
                     </div>

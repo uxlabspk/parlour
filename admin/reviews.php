@@ -88,7 +88,7 @@ $approvedCount = $pdo->query("SELECT COUNT(*) FROM reviews WHERE approved = TRUE
         <div class="max-w-7xl mx-auto px-6 py-12">
             <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-6">
                 <div>
-                    <a href="https://parlour.com/admin" class="inline-flex items-center gap-2 text-sm text-gray-400 hover:text-white transition-colors mb-3">
+                    <a href="http://localhost:8080/admin/index.php" class="inline-flex items-center gap-2 text-sm text-gray-400 hover:text-white transition-colors mb-3">
                         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"/>
                         </svg>
@@ -117,13 +117,13 @@ $approvedCount = $pdo->query("SELECT COUNT(*) FROM reviews WHERE approved = TRUE
 
         <!-- Filter Tabs -->
         <div class="bg-white rounded-2xl border border-gray-100 shadow-sm p-2 mb-6 inline-flex gap-1">
-            <a href="https://parlour.com/admin/reviews?filter=pending" class="px-5 py-2.5 rounded-xl font-semibold text-sm transition-all duration-200 <?php echo $filter === 'pending' ? 'bg-gray-900 text-white' : 'text-gray-600 hover:bg-gray-100'; ?>">
+            <a href="http://localhost:8080/admin/index.php/reviews.php?filter=pending" class="px-5 py-2.5 rounded-xl font-semibold text-sm transition-all duration-200 <?php echo $filter === 'pending' ? 'bg-gray-900 text-white' : 'text-gray-600 hover:bg-gray-100'; ?>">
                 Pending <span class="ml-1 text-xs opacity-70">(<?php echo $pendingCount; ?>)</span>
             </a>
-            <a href="https://parlour.com/admin/reviews?filter=approved" class="px-5 py-2.5 rounded-xl font-semibold text-sm transition-all duration-200 <?php echo $filter === 'approved' ? 'bg-gray-900 text-white' : 'text-gray-600 hover:bg-gray-100'; ?>">
+            <a href="http://localhost:8080/admin/index.php/reviews.php?filter=approved" class="px-5 py-2.5 rounded-xl font-semibold text-sm transition-all duration-200 <?php echo $filter === 'approved' ? 'bg-gray-900 text-white' : 'text-gray-600 hover:bg-gray-100'; ?>">
                 Approved <span class="ml-1 text-xs opacity-70">(<?php echo $approvedCount; ?>)</span>
             </a>
-            <a href="https://parlour.com/admin/reviews?filter=all" class="px-5 py-2.5 rounded-xl font-semibold text-sm transition-all duration-200 <?php echo $filter === 'all' ? 'bg-gray-900 text-white' : 'text-gray-600 hover:bg-gray-100'; ?>">
+            <a href="http://localhost:8080/admin/index.php/reviews.php?filter=all" class="px-5 py-2.5 rounded-xl font-semibold text-sm transition-all duration-200 <?php echo $filter === 'all' ? 'bg-gray-900 text-white' : 'text-gray-600 hover:bg-gray-100'; ?>">
                 All <span class="ml-1 text-xs opacity-70">(<?php echo $pendingCount + $approvedCount; ?>)</span>
             </a>
         </div>
@@ -164,7 +164,7 @@ $approvedCount = $pdo->query("SELECT COUNT(*) FROM reviews WHERE approved = TRUE
                                         </div>
                                         <div>
                                             <h3 class="font-semibold text-gray-900">
-                                                <a href="https://parlour.com/product?id=<?php echo $review['productId']; ?>" class="hover:underline">
+                                                <a href="http://localhost:8080/product.php?id=<?php echo $review['productId']; ?>" class="hover:underline">
                                                     <?php echo htmlspecialchars($review['productName']); ?>
                                                 </a>
                                             </h3>
@@ -247,17 +247,17 @@ $approvedCount = $pdo->query("SELECT COUNT(*) FROM reviews WHERE approved = TRUE
             <?php if ($totalPages > 1): ?>
                 <div class="flex justify-center gap-2 mt-10">
                     <?php if ($page > 1): ?>
-                        <a href="https://parlour.com/admin/reviews?filter=<?php echo $filter; ?>&page=<?php echo $page - 1; ?>" class="px-4 py-2 rounded-xl border border-gray-200 text-gray-600 hover:bg-gray-50 transition-colors text-sm font-medium">Previous</a>
+                        <a href="http://localhost:8080/admin/index.php/reviews.php?filter=<?php echo $filter; ?>&page=<?php echo $page - 1; ?>" class="px-4 py-2 rounded-xl border border-gray-200 text-gray-600 hover:bg-gray-50 transition-colors text-sm font-medium">Previous</a>
                     <?php endif; ?>
                     
                     <?php for ($i = max(1, $page - 2); $i <= min($totalPages, $page + 2); $i++): ?>
-                        <a href="https://parlour.com/admin/reviews?filter=<?php echo $filter; ?>&page=<?php echo $i; ?>" class="px-4 py-2 rounded-xl border text-sm font-medium transition-colors <?php echo $i === $page ? 'bg-gray-900 text-white border-gray-900' : 'border-gray-200 text-gray-600 hover:bg-gray-50'; ?>">
+                        <a href="http://localhost:8080/admin/index.php/reviews.php?filter=<?php echo $filter; ?>&page=<?php echo $i; ?>" class="px-4 py-2 rounded-xl border text-sm font-medium transition-colors <?php echo $i === $page ? 'bg-gray-900 text-white border-gray-900' : 'border-gray-200 text-gray-600 hover:bg-gray-50'; ?>">
                             <?php echo $i; ?>
                         </a>
                     <?php endfor; ?>
                     
                     <?php if ($page < $totalPages): ?>
-                        <a href="https://parlour.com/admin/reviews?filter=<?php echo $filter; ?>&page=<?php echo $page + 1; ?>" class="px-4 py-2 rounded-xl border border-gray-200 text-gray-600 hover:bg-gray-50 transition-colors text-sm font-medium">Next</a>
+                        <a href="http://localhost:8080/admin/index.php/reviews.php?filter=<?php echo $filter; ?>&page=<?php echo $page + 1; ?>" class="px-4 py-2 rounded-xl border border-gray-200 text-gray-600 hover:bg-gray-50 transition-colors text-sm font-medium">Next</a>
                     <?php endif; ?>
                 </div>
             <?php endif; ?>

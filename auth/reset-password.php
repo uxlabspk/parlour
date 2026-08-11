@@ -37,7 +37,7 @@ include __DIR__ . '/../includes/header.php';
     <div class="w-full max-w-md">
         <!-- Logo/Brand -->
         <div class="text-center mb-10">
-            <a href="https://parlour.com/" class="inline-block text-2xl font-light tracking-tight text-gray-900">
+            <a href="http://localhost:8080/" class="inline-block text-2xl font-light tracking-tight text-gray-900">
                 Ma<span class="font-semibold">Essentials</span>
             </a>
         </div>
@@ -63,7 +63,7 @@ include __DIR__ . '/../includes/header.php';
                     <span><?php echo htmlspecialchars($error); ?></span>
                 </div>
                 <div class="text-center">
-                    <a href="https://parlour.com/auth/forgot-password" class="inline-flex items-center gap-2 text-gray-900 font-semibold hover:underline text-sm">
+                    <a href="http://localhost:8080/auth/forgot-password.php" class="inline-flex items-center gap-2 text-gray-900 font-semibold hover:underline text-sm">
                         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/>
                         </svg>
@@ -73,7 +73,7 @@ include __DIR__ . '/../includes/header.php';
             <?php endif; ?>
 
             <?php if ($validToken): ?>
-                <form action="https://parlour.com/api/reset_password.php" method="POST" class="space-y-5">
+                <form action="http://localhost:8080/api/reset_password.php" method="POST" class="space-y-5">
                     <input type="hidden" name="token" value="<?php echo htmlspecialchars($token); ?>">
                     
                     <div>
@@ -98,7 +98,7 @@ include __DIR__ . '/../includes/header.php';
             <?php endif; ?>
             
             <div class="mt-8 pt-6 border-t border-gray-100 text-center">
-                <a href="https://parlour.com/auth/login" class="inline-flex items-center gap-2 text-gray-600 hover:text-gray-900 text-sm transition-colors">
+                <a href="http://localhost:8080/auth/login.php" class="inline-flex items-center gap-2 text-gray-600 hover:text-gray-900 text-sm transition-colors">
                     <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"/>
                     </svg>

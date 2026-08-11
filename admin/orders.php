@@ -110,7 +110,7 @@ if ($action === 'list') {
             <div class="max-w-7xl mx-auto px-6 py-12">
                 <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-6">
                     <div>
-                        <a href="https://parlour.com/admin" class="inline-flex items-center gap-2 text-sm text-gray-400 hover:text-white transition-colors mb-3">
+                        <a href="http://localhost:8080/admin/index.php" class="inline-flex items-center gap-2 text-sm text-gray-400 hover:text-white transition-colors mb-3">
                             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"/>
                             </svg>
@@ -172,7 +172,7 @@ if ($action === 'list') {
                     <button type="submit" class="bg-gray-900 text-white px-6 py-3 rounded-xl font-semibold text-sm hover:bg-gray-800 transition-colors duration-200">
                         Apply Filters
                     </button>
-                    <a href="https://parlour.com/admin/orders?action=list" class="bg-gray-100 text-gray-700 px-6 py-3 rounded-xl font-semibold text-sm hover:bg-gray-200 transition-colors duration-200 text-center">
+                    <a href="http://localhost:8080/admin/index.php/orders.php?action=list" class="bg-gray-100 text-gray-700 px-6 py-3 rounded-xl font-semibold text-sm hover:bg-gray-200 transition-colors duration-200 text-center">
                         Clear
                     </a>
                 </form>
@@ -242,14 +242,14 @@ if ($action === 'list') {
                                         </td>
                                         <td class="px-6 py-4">
                                             <div class="flex items-center gap-3">
-                                                <a href="https://parlour.com/admin/orders?action=view&id=<?php echo $o['id']; ?>" 
+                                                <a href="http://localhost:8080/admin/index.php/orders.php?action=view&id=<?php echo $o['id']; ?>" 
                                                    class="text-gray-600 hover:text-gray-900 transition-colors">
                                                     <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/>
                                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/>
                                                     </svg>
                                                 </a>
-                                                <a href="https://parlour.com/admin/orders?action=delete&id=<?php echo $o['id']; ?>" 
+                                                <a href="http://localhost:8080/admin/index.php/orders.php?action=delete&id=<?php echo $o['id']; ?>" 
                                                    class="text-red-500 hover:text-red-700 transition-colors"
                                                    onclick="return confirm('Are you sure you want to delete this order?')">
                                                     <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -273,7 +273,7 @@ if ($action === 'list') {
             <div class="max-w-7xl mx-auto px-6 py-12">
                 <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-6">
                     <div>
-                        <a href="https://parlour.com/admin/orders?action=list" class="inline-flex items-center gap-2 text-sm text-gray-400 hover:text-white transition-colors mb-3">
+                        <a href="http://localhost:8080/admin/index.php/orders.php?action=list" class="inline-flex items-center gap-2 text-sm text-gray-400 hover:text-white transition-colors mb-3">
                             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"/>
                             </svg>
@@ -545,7 +545,7 @@ if ($action === 'list') {
                             <h2 class="font-semibold text-gray-900">Quick Actions</h2>
                         </div>
                         <div class="p-6">
-                            <a href="https://parlour.com/admin/orders?action=delete&id=<?php echo $order['id']; ?>" 
+                            <a href="http://localhost:8080/admin/index.php/orders.php?action=delete&id=<?php echo $order['id']; ?>" 
                                class="block w-full text-center bg-red-50 text-red-600 px-6 py-3 rounded-xl font-semibold text-sm hover:bg-red-100 transition-colors duration-200 border border-red-200"
                                onclick="return confirm('Are you sure you want to delete this order? This action cannot be undone.')">
                                 Delete Order

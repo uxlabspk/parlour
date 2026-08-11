@@ -124,7 +124,7 @@ $featured_products = $stmtFeatured->fetchAll();
 <div class="max-w-7xl mx-auto px-6 lg:px-8 py-12 lg:py-16">
     <!-- Search Bar -->
     <div class="mb-12">
-        <form action="https://parlour.com/shop" method="GET" class="flex flex-col sm:flex-row gap-4 max-w-2xl mx-auto">
+        <form action="http://localhost:8080/shop.php" method="GET" class="flex flex-col sm:flex-row gap-4 max-w-2xl mx-auto">
             <?php if ($category): ?>
                 <input type="hidden" name="category" value="<?php echo htmlspecialchars($category); ?>">
             <?php endif; ?>
@@ -179,11 +179,11 @@ $featured_products = $stmtFeatured->fetchAll();
                     <div class="pb-6 border-b border-gray-100">
                         <div class="flex items-center justify-between mb-4">
                             <h3 class="text-xs font-semibold text-gray-500 uppercase tracking-wider">Active Filters</h3>
-                            <a href="https://parlour.com/shop" class="text-xs text-gray-900 hover:underline font-medium">Clear All</a>
+                            <a href="http://localhost:8080/shop.php" class="text-xs text-gray-900 hover:underline font-medium">Clear All</a>
                         </div>
                         <div class="flex flex-wrap gap-2">
                             <?php if ($category): ?>
-                                <a href="https://parlour.com/shop?<?php echo http_build_query(array_filter(['price' => $priceRange, 'search' => $search])); ?>" class="filter-chip inline-flex items-center gap-2 px-4 py-2 bg-gray-900 text-white rounded-full text-sm font-medium hover:bg-gray-800">
+                                <a href="http://localhost:8080/shop.php?<?php echo http_build_query(array_filter(['price' => $priceRange, 'search' => $search])); ?>" class="filter-chip inline-flex items-center gap-2 px-4 py-2 bg-gray-900 text-white rounded-full text-sm font-medium hover:bg-gray-800">
                                     <span><?php echo htmlspecialchars($category); ?></span>
                                     <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
@@ -191,7 +191,7 @@ $featured_products = $stmtFeatured->fetchAll();
                                 </a>
                             <?php endif; ?>
                             <?php if ($priceRange): ?>
-                                <a href="https://parlour.com/shop?<?php echo http_build_query(array_filter(['category' => $category, 'search' => $search])); ?>" class="filter-chip inline-flex items-center gap-2 px-4 py-2 bg-gray-900 text-white rounded-full text-sm font-medium hover:bg-gray-800">
+                                <a href="http://localhost:8080/shop.php?<?php echo http_build_query(array_filter(['category' => $category, 'search' => $search])); ?>" class="filter-chip inline-flex items-center gap-2 px-4 py-2 bg-gray-900 text-white rounded-full text-sm font-medium hover:bg-gray-800">
                                     <span><?php 
                                         $priceLabels = [
                                             'under-50' => 'Under PKR 50',
@@ -208,7 +208,7 @@ $featured_products = $stmtFeatured->fetchAll();
                                 </a>
                             <?php endif; ?>
                             <?php if ($search): ?>
-                                <a href="https://parlour.com/shop?<?php echo http_build_query(array_filter(['category' => $category, 'price' => $priceRange])); ?>" class="filter-chip inline-flex items-center gap-2 px-4 py-2 bg-gray-900 text-white rounded-full text-sm font-medium hover:bg-gray-800">
+                                <a href="http://localhost:8080/shop.php?<?php echo http_build_query(array_filter(['category' => $category, 'price' => $priceRange])); ?>" class="filter-chip inline-flex items-center gap-2 px-4 py-2 bg-gray-900 text-white rounded-full text-sm font-medium hover:bg-gray-800">
                                     <span>"<?php echo htmlspecialchars(substr($search, 0, 15)); ?><?php echo strlen($search) > 15 ? '...' : ''; ?>"</span>
                                     <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
@@ -227,7 +227,7 @@ $featured_products = $stmtFeatured->fetchAll();
                         $categories = ['Hair Services', 'Skin Treatments', 'Nail Art', 'Bridal Packages', 'Beauty Products'];
                         foreach ($categories as $cat):
                         ?>
-                            <a href="https://parlour.com/shop?<?php echo http_build_query(array_filter(['category' => $cat, 'price' => $priceRange, 'search' => $search])); ?>" 
+                            <a href="http://localhost:8080/shop.php?<?php echo http_build_query(array_filter(['category' => $cat, 'price' => $priceRange, 'search' => $search])); ?>" 
                                class="sidebar-link <?php echo $category === $cat ? 'active' : ''; ?> block px-4 py-3 rounded-xl text-sm <?php echo $category === $cat ? 'bg-gray-900 text-white font-semibold' : 'text-gray-600 hover:bg-gray-50 hover:text-gray-900'; ?> transition-all">
                                 <?php echo $cat; ?>
                             </a>
@@ -249,7 +249,7 @@ $featured_products = $stmtFeatured->fetchAll();
                         ];
                         foreach ($priceRanges as $value => $label):
                         ?>
-                            <a href="https://parlour.com/shop?<?php echo http_build_query(array_filter(['category' => $category, 'price' => $value, 'search' => $search])); ?>" 
+                            <a href="http://localhost:8080/shop.php?<?php echo http_build_query(array_filter(['category' => $category, 'price' => $value, 'search' => $search])); ?>" 
                                class="sidebar-link <?php echo $priceRange === $value ? 'active' : ''; ?> block px-4 py-3 rounded-xl text-sm <?php echo $priceRange === $value ? 'bg-gray-900 text-white font-semibold' : 'text-gray-600 hover:bg-gray-50 hover:text-gray-900'; ?> transition-all">
                                 <?php echo $label; ?>
                             </a>
@@ -283,7 +283,7 @@ $featured_products = $stmtFeatured->fetchAll();
                     </div>
                     <h3 class="text-xl font-semibold text-gray-900 mb-2">No products found</h3>
                     <p class="text-gray-500 mb-6">Try adjusting your filters or search term</p>
-                    <a href="https://parlour.com/shop" class="inline-flex items-center gap-2 text-gray-900 font-semibold hover:underline">
+                    <a href="http://localhost:8080/shop.php" class="inline-flex items-center gap-2 text-gray-900 font-semibold hover:underline">
                         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"/>
                         </svg>
@@ -296,7 +296,7 @@ $featured_products = $stmtFeatured->fetchAll();
                         $displayPrice = $product['discountedPrice'] ?? $product['price'];
                         $hasDiscount = !empty($product['discountedPrice']) && $product['discountedPrice'] < $product['price'];
                     ?>
-                        <a href="https://parlour.com/product?id=<?php echo $product['id']; ?>" class="product-card group block">
+                        <a href="http://localhost:8080/product.php?id=<?php echo $product['id']; ?>" class="product-card group block">
                             <div class="relative aspect-[3/4] rounded-2xl lg:rounded-3xl overflow-hidden mb-4 bg-gray-100">
                                 <img 
                                     src="<?php echo htmlspecialchars($product['image']); ?>" 

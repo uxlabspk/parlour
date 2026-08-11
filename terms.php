@@ -39,7 +39,7 @@ include __DIR__ . '/includes/header.php';
             <p>We may update these Terms from time to time. Continued use of the site after changes indicates your acceptance of the revised Terms.</p>
 
             <h2>Contact</h2>
-            <p>If you have questions about these Terms, please contact us via our <a href="https://parlour.com/contact" class="text-gray-900 underline">Contact</a> page.</p>
+            <p>If you have questions about these Terms, please contact us via our <a href="http://localhost:8080/contact.php" class="text-gray-900 underline">Contact</a> page.</p>
         </div>
     </div>
 </section>

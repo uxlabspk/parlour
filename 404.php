@@ -6,7 +6,7 @@
         <div class="relative mb-6 md:mb-8">
             <div class="absolute inset-0 bg-gradient-to-b from-gray-100/50 to-transparent rounded-3xl blur-3xl -z-10"></div>
             <img 
-                src="https://parlour.com/assets/images/not_found.png" 
+                src="http://localhost:8080/assets/images/not_found.png" 
                 alt="Page not found" 
                 class="w-64 sm:w-80 md:w-96 lg:w-[420px] mx-auto drop-shadow-2xl animate-float"
             />
@@ -23,13 +23,13 @@
             
             <!-- Actions -->
             <div class="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4 pt-4">
-                <a href="https://parlour.com/" class="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-gray-900 text-white px-7 py-3.5 rounded-xl font-semibold hover:bg-gray-800 hover:scale-105 transition-all duration-200 shadow-lg shadow-gray-900/20">
+                <a href="http://localhost:8080/" class="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-gray-900 text-white px-7 py-3.5 rounded-xl font-semibold hover:bg-gray-800 hover:scale-105 transition-all duration-200 shadow-lg shadow-gray-900/20">
                     <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/>
                     </svg>
                     Back to Home
                 </a>
-                <a href="https://parlour.com/shop" class="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-white text-gray-700 px-7 py-3.5 rounded-xl font-semibold border border-gray-200 hover:bg-gray-50 hover:border-gray-300 hover:scale-105 transition-all duration-200">
+                <a href="http://localhost:8080/shop.php" class="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-white text-gray-700 px-7 py-3.5 rounded-xl font-semibold border border-gray-200 hover:bg-gray-50 hover:border-gray-300 hover:scale-105 transition-all duration-200">
                     <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"/>
                     </svg>
@@ -42,11 +42,11 @@
         <div class="mt-14 md:mt-16 pt-8 border-t border-gray-100">
             <p class="text-sm text-gray-400 mb-4">You might find these helpful:</p>
             <div class="flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-sm">
-                <a href="https://parlour.com/collections" class="text-gray-600 hover:text-gray-900 transition-colors">Collections</a>
+                <a href="http://localhost:8080/collections.php" class="text-gray-600 hover:text-gray-900 transition-colors">Collections</a>
                 <span class="text-gray-200 hidden sm:inline">•</span>
-                <a href="https://parlour.com/about" class="text-gray-600 hover:text-gray-900 transition-colors">About Us</a>
+                <a href="http://localhost:8080/about.php" class="text-gray-600 hover:text-gray-900 transition-colors">About Us</a>
                 <span class="text-gray-200 hidden sm:inline">•</span>
-                <a href="https://parlour.com/contact" class="text-gray-600 hover:text-gray-900 transition-colors">Contact</a>
+                <a href="http://localhost:8080/contact.php" class="text-gray-600 hover:text-gray-900 transition-colors">Contact</a>
             </div>
         </div>
     </div>

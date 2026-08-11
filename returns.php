@@ -16,7 +16,7 @@ include __DIR__ . '/includes/header.php';
 
             <h2>How to Start a Return</h2>
             <ol>
-                <li>Contact our support team via <a href="https://parlour.com/contact" class="text-gray-900 underline">Contact</a> or email support@parlour.com with your order number and reason for return.</li>
+                <li>Contact our support team via <a href="http://localhost:8080/contact.php" class="text-gray-900 underline">Contact</a> or email support@parlour.com with your order number and reason for return.</li>
                 <li>We will provide a return authorization and instructions for shipping.</li>
                 <li>Ship the item back following the instructions. Keep your tracking information until your refund is processed.</li>
             </ol>
@@ -34,7 +34,7 @@ include __DIR__ . '/includes/header.php';
             <p>Certain items such as gift cards, final-sale products, and items showing opened beauty products are not returnable.</p>
 
             <h2>Contact</h2>
-            <p>For all return inquiries, use our <a href="https://parlour.com/contact" class="text-gray-900 underline">Contact</a> page or email support@parlour.com.</p>
+            <p>For all return inquiries, use our <a href="http://localhost:8080/contact.php" class="text-gray-900 underline">Contact</a> page or email support@parlour.com.</p>
         </div>
     </div>
 </section>

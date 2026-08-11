@@ -8,9 +8,9 @@
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-12 lg:gap-8 mb-16">
                 <!-- Brand Section -->
                 <div class="lg:col-span-4">
-                    <a href="https://parlour.com/" class="inline-block text-2xl font-light tracking-tight mb-6">
+                    <a href="http://localhost:8080/" class="inline-block text-2xl font-light tracking-tight mb-6">
                         <img 
-                    src="https://parlour.com/assets/images/dark-logo.png" 
+                    src="http://localhost:8080/assets/images/dark-logo.png" 
                     alt="Parlour Logo - Premium Beauty & Hair Salon" 
                     title="Parlour - Your Destination for Premium Beauty Services"
                     width="60" 
@@ -30,11 +30,11 @@
                 <div class="lg:col-span-2">
                     <h4 class="text-xs font-semibold text-gray-400 uppercase tracking-[0.2em] mb-6">Services</h4>
                     <ul class="space-y-4">
-                        <li><a href="https://parlour.com/shop" class="text-sm text-gray-400 hover:text-white transition-colors duration-200">Hair Services</a></li>
-                        <li><a href="https://parlour.com/shop?category=Skin" class="text-sm text-gray-400 hover:text-white transition-colors duration-200">Skin Care</a></li>
-                        <li><a href="https://parlour.com/shop?category=Nails" class="text-sm text-gray-400 hover:text-white transition-colors duration-200">Nail Art</a></li>
-                        <li><a href="https://parlour.com/shop?category=Bridal" class="text-sm text-gray-400 hover:text-white transition-colors duration-200">Bridal</a></li>
-                        <li><a href="https://parlour.com/shop?category=Products" class="text-sm text-gray-400 hover:text-white transition-colors duration-200">Products</a></li>
+                        <li><a href="http://localhost:8080/shop.php" class="text-sm text-gray-400 hover:text-white transition-colors duration-200">Hair Services</a></li>
+                        <li><a href="http://localhost:8080/shop.php?category=Skin" class="text-sm text-gray-400 hover:text-white transition-colors duration-200">Skin Care</a></li>
+                        <li><a href="http://localhost:8080/shop.php?category=Nails" class="text-sm text-gray-400 hover:text-white transition-colors duration-200">Nail Art</a></li>
+                        <li><a href="http://localhost:8080/shop.php?category=Bridal" class="text-sm text-gray-400 hover:text-white transition-colors duration-200">Bridal</a></li>
+                        <li><a href="http://localhost:8080/shop.php?category=Products" class="text-sm text-gray-400 hover:text-white transition-colors duration-200">Products</a></li>
                     </ul>
                 </div>
 
@@ -42,9 +42,9 @@
                 <div class="lg:col-span-2">
                     <h4 class="text-xs font-semibold text-gray-400 uppercase tracking-[0.2em] mb-6">Company</h4>
                     <ul class="space-y-4">
-                        <li><a href="https://parlour.com/about" class="text-sm text-gray-400 hover:text-white transition-colors duration-200">About Us</a></li>
-                        <li><a href="https://parlour.com/contact" class="text-sm text-gray-400 hover:text-white transition-colors duration-200">Contact</a></li>
-                        <li><a href="https://parlour.com/collections" class="text-sm text-gray-400 hover:text-white transition-colors duration-200">Collections</a></li>
+                        <li><a href="http://localhost:8080/about.php" class="text-sm text-gray-400 hover:text-white transition-colors duration-200">About Us</a></li>
+                        <li><a href="http://localhost:8080/contact.php" class="text-sm text-gray-400 hover:text-white transition-colors duration-200">Contact</a></li>
+                        <li><a href="http://localhost:8080/collections.php" class="text-sm text-gray-400 hover:text-white transition-colors duration-200">Collections</a></li>
                         <li><a href="#" class="text-sm text-gray-400 hover:text-white transition-colors duration-200">Best Products</a></li>
                     </ul>
                 </div>
@@ -82,10 +82,10 @@
             <div class="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
                 <p class="text-sm text-gray-500">© <?php echo date('Y'); ?> Parlour. All rights reserved.</p>
                 <div class="flex flex-wrap justify-center gap-6">
-                    <a href="https://parlour.com/privacy" class="text-sm text-gray-500 hover:text-gray-300 transition-colors duration-200">Privacy Policy</a>
-                    <a href="https://parlour.com/terms" class="text-sm text-gray-500 hover:text-gray-300 transition-colors duration-200">Terms of Service</a>
-                    <a href="https://parlour.com/shipping" class="text-sm text-gray-500 hover:text-gray-300 transition-colors duration-200">Shipping Policy</a>
-                    <a href="https://parlour.com/returns" class="text-sm text-gray-500 hover:text-gray-300 transition-colors duration-200">Returns</a>
+                    <a href="http://localhost:8080/privacy.php" class="text-sm text-gray-500 hover:text-gray-300 transition-colors duration-200">Privacy Policy</a>
+                    <a href="http://localhost:8080/terms.php" class="text-sm text-gray-500 hover:text-gray-300 transition-colors duration-200">Terms of Service</a>
+                    <a href="http://localhost:8080/shipping.php" class="text-sm text-gray-500 hover:text-gray-300 transition-colors duration-200">Shipping Policy</a>
+                    <a href="http://localhost:8080/returns.php" class="text-sm text-gray-500 hover:text-gray-300 transition-colors duration-200">Returns</a>
                 </div>
             </div>
         </div>

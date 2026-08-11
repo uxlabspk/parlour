@@ -132,7 +132,7 @@ document.addEventListener('DOMContentLoaded', function() {
         <!-- Main Collections - Hair & Skin Services -->
         <div class="grid md:grid-cols-2 gap-6 mb-6">
             <!-- Hair Services Collection -->
-            <a href="https://parlour.com/shop?category=Hair Services" class="group relative aspect-[3/4] rounded-3xl overflow-hidden block">
+            <a href="http://localhost:8080/shop.php?category=Hair Services" class="group relative aspect-[3/4] rounded-3xl overflow-hidden block">
                 <img 
                     src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=1200&q=80" 
                     alt="Hair Services Collection" 
@@ -155,7 +155,7 @@ document.addEventListener('DOMContentLoaded', function() {
             </a>
 
             <!-- Skin Treatments Collection -->
-            <a href="https://parlour.com/shop?category=Skin Treatments" class="group relative aspect-[3/4] rounded-3xl overflow-hidden block">
+            <a href="http://localhost:8080/shop.php?category=Skin Treatments" class="group relative aspect-[3/4] rounded-3xl overflow-hidden block">
                 <img 
                     src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=1200&q=80" 
                     alt="Skin Treatments Collection" 
@@ -179,7 +179,7 @@ document.addEventListener('DOMContentLoaded', function() {
         </div>
 
         <!-- Nail Art - Full Width -->
-        <a href="https://parlour.com/shop?category=Nail Art" class="group relative aspect-[21/9] rounded-3xl overflow-hidden block mb-6">
+        <a href="http://localhost:8080/shop.php?category=Nail Art" class="group relative aspect-[21/9] rounded-3xl overflow-hidden block mb-6">
             <img 
                 src="https://images.unsplash.com/photo-1604654894610-df63bc536371?w=1600&q=80" 
                 alt="Nail Art Collection" 

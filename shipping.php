@@ -32,7 +32,7 @@ include __DIR__ . '/includes/header.php';
             <p>We offer free cancellation up to 24 hours before your appointment. Late cancellations may incur a fee.</p>
 
             <h2>Contact</h2>
-            <p>For any service-related questions, please reach out via our <a href="https://parlour.com/contact" class="text-gray-900 underline">Contact</a> page.</p>
+            <p>For any service-related questions, please reach out via our <a href="http://localhost:8080/contact.php" class="text-gray-900 underline">Contact</a> page.</p>
         </div>
     </div>
 </section>

@@ -55,7 +55,7 @@ include __DIR__ . '/../includes/header.php';
     <div class="w-full max-w-md">
         <!-- Logo/Brand -->
         <div class="text-center mb-10">
-            <a href="https://parlour.com/" class="inline-block text-2xl font-light tracking-tight text-gray-900">
+            <a href="http://localhost:8080/" class="inline-block text-2xl font-light tracking-tight text-gray-900">
                 Ma<span class="font-semibold">Essentials</span>
             </a>
         </div>
@@ -117,7 +117,7 @@ include __DIR__ . '/../includes/header.php';
             <div class="mt-8 pt-6 border-t border-gray-100 text-center">
                 <p class="text-gray-500 text-sm">
                     Already have an account? 
-                    <a href="https://parlour.com/auth/login?redirect=<?php echo htmlspecialchars($redirectTo); ?>" class="text-gray-900 font-semibold hover:underline">Sign in</a>
+                    <a href="http://localhost:8080/auth/login.php?redirect=<?php echo htmlspecialchars($redirectTo); ?>" class="text-gray-900 font-semibold hover:underline">Sign in</a>
                 </p>
             </div>
         </div>

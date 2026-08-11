@@ -31,7 +31,7 @@ include __DIR__ . '/includes/header.php';
             <p>We implement reasonable technical and administrative measures to protect personal data. However, no system is completely secure—please contact us if you suspect a data breach.</p>
 
             <h2>Your Rights</h2>
-            <p>You may access, correct, or request deletion of your personal information. To exercise these rights or ask questions, contact us at <a href="https://parlour.com/contact" class="text-gray-900 underline">Contact</a>.</p>
+            <p>You may access, correct, or request deletion of your personal information. To exercise these rights or ask questions, contact us at <a href="http://localhost:8080/contact.php" class="text-gray-900 underline">Contact</a>.</p>
 
             <h2>Retention</h2>
             <p>We retain information as long as necessary to provide services, comply with legal obligations, resolve disputes, and enforce agreements.</p>
@@ -40,7 +40,7 @@ include __DIR__ . '/includes/header.php';
             <p>We may update this policy from time to time. Changes will be posted on this page with an updated effective date.</p>
 
             <h2>Contact</h2>
-            <p>For privacy-related inquiries, please reach out via our <a href="https://parlour.com/contact" class="text-gray-900 underline">Contact</a> page or email us at support@parlour.com.</p>
+            <p>For privacy-related inquiries, please reach out via our <a href="http://localhost:8080/contact.php" class="text-gray-900 underline">Contact</a> page or email us at support@parlour.com.</p>
         </div>
     </div>
 </section>

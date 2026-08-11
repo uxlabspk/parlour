@@ -4,7 +4,7 @@ include __DIR__ . '/includes/header.php';
 
 $id = $_GET['id'] ?? null;
 if (!$id) {
-    header("Location: https://parlour.com/shop");
+    header("Location: http://localhost:8080/shop.php");
     exit;
 }
 
@@ -13,7 +13,7 @@ $stmt->execute([$id]);
 $product = $stmt->fetch();
 
 if (!$product) {
-    header("Location: https://parlour.com/shop");
+    header("Location: http://localhost:8080/shop.php");
     exit;
 }
 
@@ -83,9 +83,9 @@ if (isLoggedIn()) {
 <div class="max-w-7xl mx-auto px-6 lg:px-8 pt-28 lg:pt-36 pb-16 lg:pb-24">
     <!-- Breadcrumb -->
     <nav class="flex items-center text-sm text-gray-500 mb-10 overflow-x-auto whitespace-nowrap pb-2">
-        <a href="https://parlour.com/" class="hover:text-gray-900 transition-colors">Home</a>
+        <a href="http://localhost:8080/" class="hover:text-gray-900 transition-colors">Home</a>
         <svg class="w-4 h-4 mx-3 text-gray-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" /></svg>
-        <a href="https://parlour.com/shop" class="hover:text-gray-900 transition-colors">Shop</a>
+        <a href="http://localhost:8080/shop.php" class="hover:text-gray-900 transition-colors">Shop</a>
         <svg class="w-4 h-4 mx-3 text-gray-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" /></svg>
         <span class="text-gray-900 font-medium"><?php echo htmlspecialchars($product['name']); ?></span>
     </nav>
@@ -200,7 +200,7 @@ if (isLoggedIn()) {
             </div>
             <?php endif; ?>
 
-            <form id="add-to-cart-form" action="https://parlour.com/api/cart.php" method="POST" class="space-y-6">
+            <form id="add-to-cart-form" action="http://localhost:8080/api/cart.php" method="POST" class="space-y-6">
                 <input type="hidden" name="action" value="add">
                 <input type="hidden" name="ajax" value="1">
                 <input type="hidden" name="product_id" value="<?php echo $product['id']; ?>">
@@ -327,7 +327,7 @@ if (isLoggedIn()) {
         <?php else: ?>
             <div class="bg-gray-50 p-8 rounded-3xl mb-10 max-w-7xl mx-auto text-center">
                 <p class="text-gray-600">
-                    <a href="https://parlour.com/auth/login" class="font-semibold text-gray-900 hover:underline">Sign in</a> to write a review
+                    <a href="http://localhost:8080/auth/login.php" class="font-semibold text-gray-900 hover:underline">Sign in</a> to write a review
                 </p>
             </div>
         <?php endif; ?>
@@ -441,7 +441,7 @@ document.getElementById('add-to-cart-form')?.addEventListener('submit', async fu
     button.innerHTML = '<span>Adding...</span>';
     
     try {
-        const response = await fetch('https://parlour.com/api/cart.php', {
+        const response = await fetch('http://localhost:8080/api/cart.php', {
             method: 'POST',
             body: formData
         });
@@ -464,7 +464,7 @@ document.getElementById('add-to-cart-form')?.addEventListener('submit', async fu
             }
             
             setTimeout(() => {
-                window.location.href = 'https://parlour.com/shop';
+                window.location.href = 'http://localhost:8080/shop.php';
             }, 1000);
         } else {
             messageDiv.className = 'p-4 bg-rose-50 border border-rose-200 rounded-2xl text-rose-700 font-medium text-sm';

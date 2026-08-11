@@ -73,7 +73,7 @@ $total = $subtotal + $shipping + $tax;
             </div>
             <h2 class="text-2xl font-semibold text-gray-900 mb-3">Your bag is empty</h2>
             <p class="text-gray-500 mb-8 max-w-sm mx-auto">Looks like you haven't added anything to your bag yet. Start exploring our collection.</p>
-            <a href="https://parlour.com/shop" class="inline-flex items-center gap-2 bg-gray-900 text-white px-8 py-4 rounded-full font-semibold hover:bg-gray-800 transition">
+            <a href="http://localhost:8080/shop.php" class="inline-flex items-center gap-2 bg-gray-900 text-white px-8 py-4 rounded-full font-semibold hover:bg-gray-800 transition">
                 <span>Start Shopping</span>
                 <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
             </a>
@@ -85,13 +85,13 @@ $total = $subtotal + $shipping + $tax;
                 <div class="bg-white rounded-3xl border border-gray-100 overflow-hidden">
                     <?php $index = 0; foreach ($cart as $id => $item): $index++; ?>
                         <div class="cart-item flex gap-5 p-6 <?php echo $index < count($cart) ? 'border-b border-gray-100' : ''; ?>" data-cart-item="<?php echo htmlspecialchars($id); ?>">
-                            <a href="https://parlour.com/product?id=<?php echo $item['id'] ?? ''; ?>" class="w-24 h-28 lg:w-28 lg:h-32 rounded-2xl overflow-hidden bg-gray-100 flex-shrink-0">
+                            <a href="http://localhost:8080/product.php?id=<?php echo $item['id'] ?? ''; ?>" class="w-24 h-28 lg:w-28 lg:h-32 rounded-2xl overflow-hidden bg-gray-100 flex-shrink-0">
                                 <img src="<?php echo htmlspecialchars($item['image']); ?>" alt="<?php echo htmlspecialchars($item['name']); ?>" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
                             </a>
                             <div class="flex-1 flex flex-col justify-between min-w-0">
                                 <div>
                                     <div class="flex justify-between items-start gap-4 mb-2">
-                                        <a href="https://parlour.com/product?id=<?php echo $item['id'] ?? ''; ?>" class="text-base lg:text-lg font-semibold text-gray-900 hover:text-gray-600 transition truncate"><?php echo htmlspecialchars($item['name']); ?></a>
+                                        <a href="http://localhost:8080/product.php?id=<?php echo $item['id'] ?? ''; ?>" class="text-base lg:text-lg font-semibold text-gray-900 hover:text-gray-600 transition truncate"><?php echo htmlspecialchars($item['name']); ?></a>
                                         <p id="price-<?php echo htmlspecialchars($id); ?>" class="text-base lg:text-lg font-semibold text-gray-900 flex-shrink-0" data-unit-price="<?php echo $item['price']; ?>">PKR <?php echo number_format($item['price'] * $item['quantity'], 0); ?></p>
                                     </div>
                                     <div class="flex flex-wrap gap-3 text-sm text-gray-500">
@@ -111,7 +111,7 @@ $total = $subtotal + $shipping + $tax;
                                             +
                                         </button>
                                     </div>
-                                    <a href="https://parlour.com/api/cart?action=remove&cart_id=<?php echo urlencode($id); ?>" class="text-gray-400 hover:text-rose-500 transition p-2 rounded-full hover:bg-rose-50">
+                                    <a href="http://localhost:8080/api/cart.php?action=remove&cart_id=<?php echo urlencode($id); ?>" class="text-gray-400 hover:text-rose-500 transition p-2 rounded-full hover:bg-rose-50">
                                         <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"/></svg>
                                     </a>
                                 </div>
@@ -122,7 +122,7 @@ $total = $subtotal + $shipping + $tax;
                 
                 <!-- Continue Shopping Link -->
                 <div class="pt-6">
-                    <a href="https://parlour.com/shop" class="inline-flex items-center gap-2 text-gray-600 hover:text-gray-900 transition font-medium">
+                    <a href="http://localhost:8080/shop.php" class="inline-flex items-center gap-2 text-gray-600 hover:text-gray-900 transition font-medium">
                         <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"/></svg>
                         <span>Continue Shopping</span>
                     </a>
@@ -157,12 +157,12 @@ $total = $subtotal + $shipping + $tax;
                     </div>
                     
                     <?php if (isLoggedIn()): ?>
-                        <a href="https://parlour.com/checkout" class="flex items-center justify-center gap-2 w-full bg-gray-900 text-white py-4 rounded-full font-semibold hover:bg-gray-800 transition">
+                        <a href="http://localhost:8080/checkout.php" class="flex items-center justify-center gap-2 w-full bg-gray-900 text-white py-4 rounded-full font-semibold hover:bg-gray-800 transition">
                             <span>Checkout</span>
                             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
                         </a>
                     <?php else: ?>
-                        <a href="https://parlour.com/auth/login?redirect=checkout" class="flex items-center justify-center gap-2 w-full bg-gray-900 text-white py-4 rounded-full font-semibold hover:bg-gray-800 transition">
+                        <a href="http://localhost:8080/auth/login.php?redirect=checkout" class="flex items-center justify-center gap-2 w-full bg-gray-900 text-white py-4 rounded-full font-semibold hover:bg-gray-800 transition">
                             <span>Sign in to Checkout</span>
                         </a>
                         <p class="text-center text-xs text-gray-500 mt-4">
@@ -206,7 +206,7 @@ function updateQuantity(cartId, change) {
     const unitPrice = parseFloat(priceElement.getAttribute('data-unit-price'));
     priceElement.textContent = 'PKR ' + Math.round(unitPrice * newQty).toLocaleString();
     
-    fetch('https://parlour.com/api/cart.php', {
+    fetch('http://localhost:8080/api/cart.php', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/x-www-form-urlencoded',

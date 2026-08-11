@@ -227,7 +227,7 @@ $products = $stmt->fetchAll();
         <div class="max-w-7xl mx-auto px-6 py-12">
             <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-6">
                 <div>
-                    <a href="https://parlour.com/admin" class="inline-flex items-center gap-2 text-sm text-gray-400 hover:text-white transition-colors mb-3">
+                    <a href="http://localhost:8080/admin/index.php" class="inline-flex items-center gap-2 text-sm text-gray-400 hover:text-white transition-colors mb-3">
                         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"/>
                         </svg>
@@ -323,12 +323,12 @@ $products = $stmt->fetchAll();
                                 </td>
                                 <td class="px-6 py-4">
                                     <div class="flex items-center gap-3">
-                                        <a href="https://parlour.com/admin/products?action=edit&id=<?php echo $p['id']; ?>" class="text-gray-600 hover:text-gray-900 transition-colors" title="Edit">
+                                        <a href="http://localhost:8080/admin/index.php/products.php?action=edit&id=<?php echo $p['id']; ?>" class="text-gray-600 hover:text-gray-900 transition-colors" title="Edit">
                                             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"/>
                                             </svg>
                                         </a>
-                                        <a href="https://parlour.com/admin/products?action=delete&id=<?php echo $p['id']; ?>" onclick="return confirm('Are you sure you want to delete this product?')" class="text-red-500 hover:text-red-700 transition-colors" title="Delete">
+                                        <a href="http://localhost:8080/admin/index.php/products.php?action=delete&id=<?php echo $p['id']; ?>" onclick="return confirm('Are you sure you want to delete this product?')" class="text-red-500 hover:text-red-700 transition-colors" title="Delete">
                                             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"/>
                                             </svg>
@@ -437,7 +437,7 @@ $products = $stmt->fetchAll();
     <div class="bg-white rounded-2xl p-8 max-w-2xl w-full mx-4 shadow-2xl max-h-[90vh] overflow-y-auto">
         <div class="flex items-center justify-between mb-6">
             <h2 class="text-xl font-semibold text-gray-900">Edit Product</h2>
-            <a href="https://parlour.com/admin/products" class="p-2 hover:bg-gray-100 rounded-xl transition-colors">
+            <a href="http://localhost:8080/admin/index.php/products.php" class="p-2 hover:bg-gray-100 rounded-xl transition-colors">
                 <svg class="w-5 h-5 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
                 </svg>
@@ -539,7 +539,7 @@ $products = $stmt->fetchAll();
                 <textarea name="description" class="w-full px-4 py-3 border border-gray-200 rounded-xl outline-none focus:border-gray-400 focus:ring-2 focus:ring-gray-100 transition-all duration-200 h-24 resize-none"><?php echo htmlspecialchars($editProduct['description'] ?? ''); ?></textarea>
             </div>
             <div class="flex gap-3 pt-2">
-                <a href="https://parlour.com/admin/products" class="flex-1 text-center bg-gray-100 text-gray-700 py-3 rounded-xl font-semibold hover:bg-gray-200 transition-colors duration-200">Cancel</a>
+                <a href="http://localhost:8080/admin/index.php/products.php" class="flex-1 text-center bg-gray-100 text-gray-700 py-3 rounded-xl font-semibold hover:bg-gray-200 transition-colors duration-200">Cancel</a>
                 <button type="submit" id="edit-submit-btn" class="flex-1 bg-gray-900 text-white py-3 rounded-xl font-semibold hover:bg-gray-800 transition-colors duration-200">Update Product</button>
             </div>
         </form>

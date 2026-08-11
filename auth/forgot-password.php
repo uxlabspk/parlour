@@ -25,7 +25,7 @@ include __DIR__ . '/../includes/header.php';
     <div class="w-full max-w-md">
         <!-- Logo/Brand -->
         <div class="text-center mb-10">
-            <a href="https://parlour.com/" class="inline-block text-2xl font-light tracking-tight text-gray-900">
+            <a href="http://localhost:8080/" class="inline-block text-2xl font-light tracking-tight text-gray-900">
                 Ma<span class="font-semibold">Essentials</span>
             </a>
         </div>
@@ -61,7 +61,7 @@ include __DIR__ . '/../includes/header.php';
                 </div>
             <?php endif; ?>
 
-            <form action="https://parlour.com/api/forgot_password.php" method="POST" class="space-y-5">
+            <form action="http://localhost:8080/api/forgot_password.php" method="POST" class="space-y-5">
                 <div>
                     <label class="block text-sm font-medium text-gray-700 mb-2">Email Address</label>
                     <input type="email" name="email" required 
@@ -74,7 +74,7 @@ include __DIR__ . '/../includes/header.php';
             </form>
             
             <div class="mt-8 pt-6 border-t border-gray-100 text-center">
-                <a href="https://parlour.com/auth/login" class="inline-flex items-center gap-2 text-gray-600 hover:text-gray-900 text-sm transition-colors">
+                <a href="http://localhost:8080/auth/login.php" class="inline-flex items-center gap-2 text-gray-600 hover:text-gray-900 text-sm transition-colors">
                     <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"/>
                     </svg>
@@ -86,7 +86,7 @@ include __DIR__ . '/../includes/header.php';
         <!-- Help Text -->
         <div class="mt-8 text-center">
             <p class="text-xs text-gray-400">
-                Remember your password? <a href="https://parlour.com/auth/login" class="text-gray-600 hover:underline">Sign in here</a>
+                Remember your password? <a href="http://localhost:8080/auth/login.php" class="text-gray-600 hover:underline">Sign in here</a>
             </p>
         </div>
     </div>

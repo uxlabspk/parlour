@@ -4,7 +4,7 @@ include __DIR__ . '/includes/header.php';
 requireLogin();
 
 if (!isset($_GET['order_id'])) {
-    header("Location: https://parlour.com/profile");
+    header("Location: http://localhost:8080/profile.php");
     exit;
 }
 
@@ -22,7 +22,7 @@ $stmt->execute([$orderId, $userId]);
 $order = $stmt->fetch();
 
 if (!$order) {
-    header("Location: https://parlour.com/profile");
+    header("Location: http://localhost:8080/profile.php");
     exit;
 }
 
@@ -66,7 +66,7 @@ $gatewayResponse = $order['gatewayResponse'] ? json_decode($order['gatewayRespon
 <div class="max-w-4xl mx-auto px-6 lg:px-8 pt-28 lg:pt-36 pb-16 lg:pb-24">
     <!-- Action Buttons -->
     <div class="no-print flex justify-between items-center mb-8">
-        <a href="https://parlour.com/profile?tab=orders" class="inline-flex items-center gap-2 text-gray-500 hover:text-gray-900 transition">
+        <a href="http://localhost:8080/profile.php?tab=orders" class="inline-flex items-center gap-2 text-gray-500 hover:text-gray-900 transition">
             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"/></svg>
             <span class="text-sm font-medium">Back to Orders</span>
         </a>
@@ -240,10 +240,10 @@ $gatewayResponse = $order['gatewayResponse'] ? json_decode($order['gatewayRespon
 
     <!-- Additional Actions -->
     <div class="no-print mt-8 flex justify-center gap-4">
-        <a href="https://parlour.com/profile?tab=orders" class="px-6 py-3 border border-gray-300 text-gray-700 rounded-full hover:bg-gray-50 transition font-medium">
+        <a href="http://localhost:8080/profile.php?tab=orders" class="px-6 py-3 border border-gray-300 text-gray-700 rounded-full hover:bg-gray-50 transition font-medium">
             View All Orders
         </a>
-        <a href="https://parlour.com/shop" class="px-6 py-3 bg-gray-900 text-white rounded-full hover:bg-gray-800 transition font-medium">
+        <a href="http://localhost:8080/shop.php" class="px-6 py-3 bg-gray-900 text-white rounded-full hover:bg-gray-800 transition font-medium">
             Continue Shopping
         </a>
     </div>

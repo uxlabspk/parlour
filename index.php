@@ -129,11 +129,11 @@ $slider_products = $stmtSlider->fetchAll();
   "@context": "https://schema.org",
   "@type": "WebSite",
   "name": "Parlour",
-    "url": "https://parlour.com",
+    "url": "http://localhost:8080",
   "description": "Premium beauty and hair salon services for the discerning client",
   "potentialAction": {
     "@type": "SearchAction",
-    "target": "https://parlour.com/shop?search={search_term_string}",
+    "target": "http://localhost:8080/shop.php?search={search_term_string}",
     "query-input": "required name=search_term_string"
   }
 }
@@ -143,8 +143,8 @@ $slider_products = $stmtSlider->fetchAll();
   "@context": "https://schema.org",
   "@type": "Organization",
   "name": "Parlour",
-    "url": "https://parlour.com",
-    "logo": "https://parlour.com/assets/images/logo.png",
+    "url": "http://localhost:8080",
+    "logo": "http://localhost:8080/assets/images/logo.png",
   "sameAs": [
     "https://facebook.com/parlour",
     "https://instagram.com/parlour",
@@ -227,7 +227,7 @@ $slider_products = $stmtSlider->fetchAll();
 
                     <!-- CTA Buttons -->
                     <div class="flex flex-col sm:flex-row gap-4 pt-4 animate-fade-in-up opacity-0 justify-center" style="animation-delay: 0.8s">
-                        <a href="https://parlour.com/shop" class="btn-elegant group inline-flex items-center justify-center gap-3 bg-white text-gray-900 px-8 py-4 rounded-full font-semibold text-base shadow-2xl shadow-white/20 hover:shadow-white/30 hover:bg-gray-50">
+                        <a href="http://localhost:8080/shop.php" class="btn-elegant group inline-flex items-center justify-center gap-3 bg-white text-gray-900 px-8 py-4 rounded-full font-semibold text-base shadow-2xl shadow-white/20 hover:shadow-white/30 hover:bg-gray-50">
                             Explore Services
                             <svg class="w-5 h-5 transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
@@ -346,7 +346,7 @@ $slider_products = $stmtSlider->fetchAll();
                 <div id="productSlider" class="flex transition-transform duration-700 ease-out gap-6 px-6 lg:px-0">
                     <?php foreach ($slider_products as $index => $product): ?>
                         <div class="min-w-[85%] sm:min-w-[45%] lg:min-w-[calc(33.333%-16px)] group">
-                            <a href="https://parlour.com/product?id=<?php echo $product['id']; ?>" class="block">
+                            <a href="http://localhost:8080/product.php?id=<?php echo $product['id']; ?>" class="block">
                                 <div class="relative aspect-[3/4] rounded-3xl overflow-hidden mb-6 bg-gray-100">
                                     <img 
                                         src="<?php echo htmlspecialchars($product['image']); ?>" 
@@ -460,7 +460,7 @@ $slider_products = $stmtSlider->fetchAll();
             <!-- Bento Grid Layout -->
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 lg:gap-8">
                 <!-- Large Card - Hair Services -->
-                <a href="https://parlour.com/collections?category=hair" class="group relative lg:col-span-2 lg:row-span-2 h-[500px] lg:h-auto rounded-[2rem] overflow-hidden hover-lift block">
+                <a href="http://localhost:8080/collections.php?category=hair" class="group relative lg:col-span-2 lg:row-span-2 h-[500px] lg:h-auto rounded-[2rem] overflow-hidden hover-lift block">
                     <img 
                         src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=1200&q=85" 
                         alt="Hair Services Collection" 
@@ -486,7 +486,7 @@ $slider_products = $stmtSlider->fetchAll();
                 </a>
 
                 <!-- Skin Treatments Card -->
-                <a href="https://parlour.com/collections?category=skin" class="group relative h-[350px] lg:h-auto rounded-[2rem] overflow-hidden hover-lift block">
+                <a href="http://localhost:8080/collections.php?category=skin" class="group relative h-[350px] lg:h-auto rounded-[2rem] overflow-hidden hover-lift block">
                     <img 
                         src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=800&q=85" 
                         alt="Skin Treatments Collection" 
@@ -508,7 +508,7 @@ $slider_products = $stmtSlider->fetchAll();
                 </a>
 
                 <!-- Nail Art Card -->
-                <a href="https://parlour.com/collections?category=nails" class="group relative h-[350px] lg:h-auto rounded-[2rem] overflow-hidden hover-lift block">
+                <a href="http://localhost:8080/collections.php?category=nails" class="group relative h-[350px] lg:h-auto rounded-[2rem] overflow-hidden hover-lift block">
                     <img 
                         src="https://images.unsplash.com/photo-1604654894610-df63bc536371?w=800&q=85" 
                         alt="Nail Art Collection" 
@@ -532,7 +532,7 @@ $slider_products = $stmtSlider->fetchAll();
 
             <!-- View All Services -->
             <div class="text-center mt-12 lg:mt-16">
-                <a href="https://parlour.com/collections" class="inline-flex items-center gap-3 px-8 py-4 bg-gray-900 text-white rounded-full font-semibold hover:bg-gray-800 transition-all duration-300 group">
+                <a href="http://localhost:8080/collections.php" class="inline-flex items-center gap-3 px-8 py-4 bg-gray-900 text-white rounded-full font-semibold hover:bg-gray-800 transition-all duration-300 group">
                     View All Services
                     <svg class="w-5 h-5 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
@@ -554,7 +554,7 @@ $slider_products = $stmtSlider->fetchAll();
                     </h2>
                     <p class="text-gray-500 text-lg leading-relaxed">Our most loved beauty products, meticulously selected for those who appreciate refined quality.</p>
                 </div>
-                <a href="https://parlour.com/shop" class="group inline-flex items-center gap-2 text-gray-900 font-semibold hover:text-gray-600 transition-colors">
+                <a href="http://localhost:8080/shop.php" class="group inline-flex items-center gap-2 text-gray-900 font-semibold hover:text-gray-600 transition-colors">
                     View All
                     <svg class="w-5 h-5 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
@@ -574,7 +574,7 @@ $slider_products = $stmtSlider->fetchAll();
                       "@context": "https://schema.org",
                       "@type": "Product",
                       "name": "<?php echo htmlspecialchars($product['name']); ?>",
-                      "image": "https://parlour.com<?php echo htmlspecialchars($product['image']); ?>",
+                      "image": "http://localhost:8080<?php echo htmlspecialchars($product['image']); ?>",
                       "description": "<?php echo htmlspecialchars($product['description'] ?? 'Premium quality ' . $product['name'] . ' from Parlour'); ?>",
                       "brand": {
                         "@type": "Brand",
@@ -582,7 +582,7 @@ $slider_products = $stmtSlider->fetchAll();
                       },
                       "offers": {
                         "@type": "Offer",
-                        "url": "https://parlour.com/product?id=<?php echo $product['id']; ?>",
+                        "url": "http://localhost:8080/product.php?id=<?php echo $product['id']; ?>",
                         "priceCurrency": "PKR",
                         "price": "<?php echo $displayPrice; ?>",
                         "availability": "https://schema.org/InStock",
@@ -592,7 +592,7 @@ $slider_products = $stmtSlider->fetchAll();
                     </script>
                     
                     <article itemscope itemtype="https://schema.org/Product" class="group">
-                        <a href="https://parlour.com/product?id=<?php echo $product['id']; ?>" class="block">
+                        <a href="http://localhost:8080/product.php?id=<?php echo $product['id']; ?>" class="block">
                             <div class="relative aspect-[3/4] rounded-2xl lg:rounded-3xl overflow-hidden mb-4 lg:mb-6 bg-gray-100">
                                 <img 
                                     itemprop="image"
@@ -658,7 +658,7 @@ $slider_products = $stmtSlider->fetchAll();
 
             <!-- Bottom CTA -->
             <div class="mt-16 lg:mt-20 text-center">
-                <a href="https://parlour.com/shop" class="inline-flex items-center gap-3 px-8 py-4 bg-gray-900 text-white rounded-full font-semibold hover:bg-gray-800 transition-all duration-300 group">
+                <a href="http://localhost:8080/shop.php" class="inline-flex items-center gap-3 px-8 py-4 bg-gray-900 text-white rounded-full font-semibold hover:bg-gray-800 transition-all duration-300 group">
                     Explore Full Collection
                     <svg class="w-5 h-5 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
@@ -693,13 +693,13 @@ $slider_products = $stmtSlider->fetchAll();
                         Let them choose their perfect beauty treatment. Our gift cards are the ideal present for any beauty enthusiast.
                     </p>
                     <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-                        <a href="https://parlour.com/shop" class="btn-elegant group inline-flex items-center justify-center gap-3 bg-white text-gray-900 px-8 py-4 rounded-full font-semibold hover:bg-gray-100 transition-all duration-300">
+                        <a href="http://localhost:8080/shop.php" class="btn-elegant group inline-flex items-center justify-center gap-3 bg-white text-gray-900 px-8 py-4 rounded-full font-semibold hover:bg-gray-100 transition-all duration-300">
                             Purchase Gift Card
                             <svg class="w-5 h-5 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
                             </svg>
                         </a>
-                        <a href="https://parlour.com/about" class="inline-flex items-center justify-center gap-2 text-white/80 hover:text-white font-medium transition-colors">
+                        <a href="http://localhost:8080/about.php" class="inline-flex items-center justify-center gap-2 text-white/80 hover:text-white font-medium transition-colors">
                             Learn More
                             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
@@ -905,7 +905,7 @@ $slider_products = $stmtSlider->fetchAll();
             <h4 class="font-semibold text-sm mb-1">Added to Cart!</h4>
             <p id="toastMessage" class="text-white/70 text-xs"></p>
         </div>
-        <a href="https://parlour.com/cart" class="text-xs font-semibold hover:underline">View Cart</a>
+        <a href="http://localhost:8080/cart.php" class="text-xs font-semibold hover:underline">View Cart</a>
     </div>
 </div>
 
