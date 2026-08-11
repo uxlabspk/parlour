@@ -26,7 +26,7 @@ include __DIR__ . '/includes/header.php';
 </div>
 
 <!-- Gallery Filter -->
-<section class="py-12 bg-white sticky top-24 z-30 border-b border-gray-100">
+<section class="py-12 bg-white relative top-8 z-30 border-b border-gray-100">
     <div class="max-w-7xl mx-auto px-6 lg:px-8">
         <div class="flex flex-wrap justify-center gap-3">
             <button class="gallery-filter active px-6 py-2.5 rounded-full text-sm font-medium transition-all duration-300 bg-gray-900 text-white" data-filter="all">
