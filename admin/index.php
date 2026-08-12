@@ -16,13 +16,13 @@ $recentOrders = $stmtRecent->fetchAll();
 
 <div class="">
     <!-- Admin Header -->
-    <div class="sm:pt-36 pt-24 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white">
+    <div class="sm:pt-36 pt-24 bg-rose-200 ">
         <div class="max-w-7xl mx-auto px-6 py-12">
             <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-6">
                 <div>
-                    <p class="text-sm font-medium text-gray-400 mb-2">Welcome back, <?php echo htmlspecialchars($_SESSION['name'] ?? 'Admin'); ?></p>
+                    <p class="text-sm font-medium mb-2">Welcome back, <?php echo htmlspecialchars($_SESSION['name'] ?? 'Admin'); ?></p>
                     <h1 class="text-3xl lg:text-4xl font-light">
-                        Admin <span class="font-semibold">Dashboard</span>
+                        Admin Dashboard
                     </h1>
                 </div>
                 <div class="flex flex-wrap gap-3">
