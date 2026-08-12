@@ -1,10 +1,10 @@
 <?php
 // php_web/includes/db.php
 
-$host = '193.203.168.147';
-$db   = 'u872295631_testing';
-$user = 'u872295631_123';
-$pass = 'Sh12zil@567';
+$host = '193.203.184.96';
+$db   = 'u971015938_ria_p';
+$user = 'u971015938_shazil';
+$pass = 'Shazil@1577';
 $charset = 'utf8mb4';
 
 $dsn = "mysql:host=$host;dbname=$db;charset=$charset";

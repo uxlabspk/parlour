@@ -157,4 +157,3 @@ CREATE TABLE IF NOT EXISTS addresses (
     INDEX (userId),
     INDEX (isDefault)
 );
-
