@@ -28,7 +28,7 @@ $successMessage = isset($_GET['success']) ? $_GET['message'] ?? 'Operation compl
 ?>
 
 <!-- Header Section -->
-<section class="pt-32 pb-8 lg:pt-40 lg:pb-12 bg-gray-50/50">
+<section class="pt-32 pb-8 lg:pt-40 lg:pb-12 bg-rose-50">
     <div class="max-w-7xl mx-auto px-6 lg:px-8">
         <div class="flex items-center gap-6">
             <div class="w-20 h-20 bg-gray-900 text-white rounded-2xl flex items-center justify-center font-semibold text-2xl overflow-hidden shadow-lg">

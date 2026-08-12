@@ -26,7 +26,7 @@ include __DIR__ . '/includes/header.php';
 </div>
 
 <!-- Contact Content -->
-<section class="py-12">
+<section class="py-12 bg-rose-50">
     <div class="max-w-7xl mx-auto px-6 lg:px-8">
         <div class="grid lg:grid-cols-5 gap-12 lg:gap-16">
             <!-- Contact Info -->

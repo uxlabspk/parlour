@@ -320,7 +320,7 @@ $slider_products = $stmtSlider->fetchAll();
     </div>
 
     <!-- New Services Section - Refined -->
-    <section class="py-24 lg:py-32 bg-white overflow-hidden">
+    <section class="py-24 lg:py-32 bg-rose-50 overflow-hidden">
         <div class="max-w-7xl mx-auto px-6 lg:px-8">
             <!-- Section Header -->
             <div class="flex flex-col lg:flex-row justify-between items-start lg:items-end mb-16 gap-8">
@@ -444,7 +444,7 @@ $slider_products = $stmtSlider->fetchAll();
 
 
     <!-- Services Section - Bento Grid Style -->
-    <section id="gallery-section" class="relative bg-gray-50 py-24 lg:py-32 px-6 lg:px-8">
+    <section id="gallery-section" class="relative bg-rose-50 py-24 lg:py-32 px-6 lg:px-8">
         <div class="max-w-7xl mx-auto">
             <!-- Section Header -->
             <div class="text-center mb-16 lg:mb-20">
@@ -543,7 +543,7 @@ $slider_products = $stmtSlider->fetchAll();
     </section>
 
     <!-- Featured Products Section - Premium Grid -->
-    <section id="featured-products" class="relative bg-white py-24 lg:py-32 px-6 lg:px-8">
+    <section id="featured-products" class="relative bg-rose-50 py-24 lg:py-32 px-6 lg:px-8">
         <div class="max-w-7xl mx-auto">
             <!-- Section Header -->
             <div class="flex flex-col lg:flex-row justify-between items-start lg:items-end mb-16 gap-8">
@@ -720,7 +720,7 @@ $slider_products = $stmtSlider->fetchAll();
     </section>
 
     <!-- Customer Reviews Section -->
-    <section class="py-24 lg:py-32 overflow-hidden">
+    <section class="py-24 lg:py-32 overflow-hidden bg-rose-50">
         <div class="max-w-7xl mx-auto px-6 lg:px-8">
             <div class="text-center mb-16">
                 <span class="inline-block text-sm font-semibold text-gray-500 tracking-[0.3em] uppercase mb-4">Testimonials</span>
@@ -820,7 +820,7 @@ $slider_products = $stmtSlider->fetchAll();
     </script>
 
     <!-- Service Features Section - Refined Cards -->
-    <section class="py-24 lg:py-12 bg-white">
+    <section class="py-24 lg:py-12 bg-rose-50">
         <div class="max-w-7xl mx-auto px-6 lg:px-8">
             <!-- Section Header -->
             <div class="text-center mb-16 lg:mb-20">

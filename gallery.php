@@ -26,7 +26,7 @@ include __DIR__ . '/includes/header.php';
 </div>
 
 <!-- Gallery Filter -->
-<section class="py-12 bg-white relative top-8 z-30 border-b border-gray-100">
+<section class="pt-12 bg-rose-50 relative z-30 ">
     <div class="max-w-7xl mx-auto px-6 lg:px-8">
         <div class="flex flex-wrap justify-center gap-3">
             <button class="gallery-filter active px-6 py-2.5 rounded-full text-sm font-medium transition-all duration-300 bg-gray-900 text-white" data-filter="all">
@@ -49,7 +49,7 @@ include __DIR__ . '/includes/header.php';
 </section>
 
 <!-- Gallery Grid -->
-<section class="py-12 lg:py-16">
+<section class="py-12 lg:py-16 bg-rose-50">
     <div class="max-w-7xl mx-auto px-6 lg:px-8">
         <div class="columns-1 sm:columns-2 lg:columns-3 gap-4 space-y-4">
             <!-- Hair Work -->
@@ -237,7 +237,7 @@ include __DIR__ . '/includes/header.php';
 </section>
 
 <!-- CTA Section -->
-<section class="py-24 bg-gray-50">
+<section class="py-24 bg-rose-50">
     <div class="max-w-4xl mx-auto px-6 lg:px-8 text-center">
         <h2 class="text-3xl lg:text-4xl font-light text-gray-900 mb-6 tracking-tight">
             Ready to <span class="font-semibold">Transform</span>?

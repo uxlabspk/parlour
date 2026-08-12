@@ -26,7 +26,7 @@ include __DIR__ . '/includes/header.php';
 </div>
 
 <!-- Story Section -->
-<section class="py-24 lg:py-32">
+<section class="py-24 lg:py-32 bg-rose-50">
     <div class="max-w-7xl mx-auto px-6 lg:px-8">
         <div class="grid lg:grid-cols-2 gap-16 items-center">
             <div>
@@ -72,7 +72,7 @@ include __DIR__ . '/includes/header.php';
 </section>
 
 <!-- Services Section -->
-<section class="py-24 lg:py-32 bg-gray-50/50">
+<section class="py-24 lg:py-32 bg-rose-50">
     <div class="max-w-7xl mx-auto px-6 lg:px-8">
         <div class="text-center mb-16">
             <span class="inline-block text-sm font-semibold text-gray-500 tracking-[0.3em] uppercase mb-4">Discover</span>
@@ -194,7 +194,7 @@ document.addEventListener('DOMContentLoaded', function() {
 </script>
 
 <!-- Service Features Section -->
-<section class="py-24 lg:py-32">
+<section class="py-24 lg:py-32 bg-rose-50">
     <div class="max-w-7xl mx-auto px-6 lg:px-8">
         <div class="text-center mb-16">
             <span class="inline-block text-sm font-semibold text-gray-500 tracking-[0.3em] uppercase mb-4">Why Choose Us</span>
@@ -244,7 +244,7 @@ document.addEventListener('DOMContentLoaded', function() {
 </section>
 
 <!-- FAQs Section -->
-<section class="py-24 lg:py-32 bg-gray-50/50">
+<section class="py-24 lg:py-32 bg-rose-50">
     <div class="max-w-3xl mx-auto px-6 lg:px-8">
         <div class="text-center mb-16">
             <span class="inline-block text-sm font-semibold text-gray-500 tracking-[0.3em] uppercase mb-4">Support</span>
@@ -327,7 +327,7 @@ document.addEventListener('DOMContentLoaded', function() {
 </script>
 
 <!-- Customer Reviews Section -->
-<section class="py-24 lg:py-32 overflow-hidden">
+<section class="py-24 lg:py-32 overflow-hidden bg-rose-50">
     <div class="max-w-7xl mx-auto px-6 lg:px-8">
         <div class="text-center mb-16">
             <span class="inline-block text-sm font-semibold text-gray-500 tracking-[0.3em] uppercase mb-4">Testimonials</span>

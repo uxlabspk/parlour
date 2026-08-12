@@ -121,7 +121,8 @@ $featured_products = $stmtFeatured->fetchAll();
     </div>
 </div>
 
-<div class="max-w-7xl mx-auto px-6 lg:px-8 py-12 lg:py-16">
+<div class="bg-rose-50">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8 py-12 lg:py-16">
     <!-- Search Bar -->
     <div class="mb-12">
         <form action="http://localhost:8080/shop.php" method="GET" class="flex flex-col sm:flex-row gap-4 max-w-2xl mx-auto">
@@ -356,9 +357,10 @@ $featured_products = $stmtFeatured->fetchAll();
         </div>
     </div>
 </div>
+</div>
 
 <!-- Customer Reviews Section -->
-<section class="py-24 lg:py-32 overflow-hidden">
+<section class="py-24 lg:py-32 overflow-hidden bg-rose-50">
     <div class="max-w-7xl mx-auto px-6 lg:px-8">
         <div class="text-center mb-16">
             <span class="inline-block text-sm font-semibold text-gray-500 tracking-[0.3em] uppercase mb-4">Testimonials</span>
