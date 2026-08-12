@@ -21,7 +21,7 @@ if (isset($_GET['error'])) {
 include __DIR__ . '/../includes/header.php';
 ?>
 
-<div class="min-h-screen flex items-center justify-center py-32 px-6">
+<div class="min-h-screen flex items-center justify-center py-32 px-6 bg-rose-50">
     <div class="w-full max-w-md">
         <!-- Logo/Brand -->
         <div class="text-center mb-10">
