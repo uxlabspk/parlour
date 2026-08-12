@@ -93,18 +93,3 @@
 </body>
 </html>
 
-<!-- Floating WhatsApp Button -->
-<style>
-.whatsapp-float{position:fixed;right:20px;bottom:20px;z-index:9999;width:56px;height:56px;border-radius:50%;background:#25D366;color:#fff;display:flex;align-items:center;justify-content:center;box-shadow:0 6px 18px rgba(37,211,102,0.3);transition:transform .15s ease,box-shadow .15s;}
-.whatsapp-float:hover{transform:translateY(-3px);box-shadow:0 10px 24px rgba(37,211,102,0.35);}
-.whatsapp-float svg{width:24px;height:24px;}
-@media (max-width:640px){.whatsapp-float{right:16px;bottom:16px;width:48px;height:48px;}}
-</style>
-
-<!-- Replace the phone number and the prefilled message as needed -->
-<a href="https://wa.me/+923145394040?text=Hello%20Parlour%20I%20need%20help%20with%20a%20booking" target="_blank" rel="noopener noreferrer" class="whatsapp-float" aria-label="Chat on WhatsApp">
-    <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-        <path d="M20.52 3.48A11.94 11.94 0 0012 .5 11.96 11.96 0 003.48 3.48 11.92 11.92 0 00.5 12c0 2.09.55 4.13 1.6 5.92L0 24l6.3-1.64A11.92 11.92 0 0012 24c2.09 0 4.13-.55 5.92-1.6A11.92 11.92 0 0023.5 12c0-3.2-1.25-6.2-3.0-8.52zM12 21.5c-1.64 0-3.25-.43-4.64-1.25l-.33-.19-3.74.97.99-3.62-.21-.36A9.47 9.47 0 012.5 12c0-5.25 4.25-9.5 9.5-9.5s9.5 4.25 9.5 9.5S17.25 21.5 12 21.5z"/>
-        <path d="M17.58 14.06c-.3-.15-1.78-.88-2.05-.98-.27-.1-.47-.15-.67.15s-.77.98-.95 1.18c-.18.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.76-1.66-2.06-.17-.3-.02-.46.13-.6.13-.12.3-.33.45-.5.15-.17.2-.3.3-.5.1-.2.05-.38-.02-.53-.07-.15-.67-1.6-.92-2.2-.24-.57-.48-.5-.67-.51l-.57-.01c-.2 0-.52.07-.8.37s-1.05 1.03-1.05 2.5 1.08 2.9 1.23 3.1c.15.2 2.12 3.33 5.14 4.67 2.02.9 2.78.99 3.78.83.6-.11 1.78-.72 2.03-1.42.25-.7.25-1.3.18-1.42-.07-.12-.26-.2-.56-.35z" fill="#fff"/>
-    </svg>
-</a>
