@@ -62,7 +62,7 @@ $successMessage = isset($_GET['success']) ? $_GET['message'] ?? 'Operation compl
 <?php endif; ?>
 
 <!-- Main Content -->
-<section class="py-8 lg:py-12">
+<section class="py-8 lg:py-12 bg-rose-50">
     <div class="max-w-7xl mx-auto px-6 lg:px-8">
         <div class="grid lg:grid-cols-4 gap-8">
             <!-- Sidebar -->
